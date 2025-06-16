@@ -5,7 +5,7 @@
 
 # 💻 Services
 - **Conference Reviewer:** IEEE IROS
-- **Teaching:** ELEG2202: Fundamentals of Electric Circuits; ELEG3103: Robotic Perception and Intelligence.
+- **Teaching Assistants:** ELEG2202: Fundamentals of Electric Circuits; ELEG3103: Robotic Perception and Intelligence.
 - **Activity:** MC in graduation dinner of CUHK EE; MC in Christmas dinner of CUHK EE.
 
 # 💻 Language
