@@ -5,7 +5,6 @@
 
 # 👨‍🔬 Services
 - **Reviewer:** IEEE IROS, MICCAI workshop
-- **Teaching Assistants:** ELEG2202: Fundamentals of Electric Circuits; ELEG3103: Robotic Perception and Intelligence.
 - **Activity:** MC in graduation dinner of CUHK EE; MC in Christmas dinner of CUHK EE.
 - **Volunteer:** Physician Assistant in free clinic (with Prof. Cheung).
 
@@ -13,10 +12,14 @@
 - Chinese (Cantonese, Mandarin, Hakka)
 - English
 
-<!-- # 💬 Invited Talks
-- *2022.02*, Hosted MLNLP seminar \| [\[Video\]](https://www.bilibili.com/video/BV1wF411x7qh)
-- *2021.06*, Audio & Speech Synthesis, Huawei internal talk
-- *2021.03*, Non-autoregressive Speech Synthesis, PaperWeekly & biendata \| [\[video\]](https://www.bilibili.com/video/BV1uf4y1t7Hr/)
-- *2020.12*, Non-autoregressive Speech Synthesis, Huawei Noah's Ark Lab internal talk -->
+# 👨‍🏫 Teaching
+
+**Teaching Assistantships:**  
+- 2024-2025 Spring: ELEG3103 Robotic Perception and Intelligence  
+- 2024-2025 Fall: ELEG2202 Fundamentals of Electric Circuits
+
+**Mentees:**  
+- Sean Kong Ko Lun [website](https://seancolin.faculty.bio/) \| UG intern \|  → Ph.D. Student, CityU
+
 
 
