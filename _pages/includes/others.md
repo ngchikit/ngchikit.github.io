@@ -3,12 +3,13 @@
 - *2020.08 - 2024.07*, Undergraduate, CUHK, Hong Kong.
 - *2017.09 - 2020.07*, Puiching Middel School, Hong Kong.
 
-# 💻 Services
-- **Conference Reviewer:** IEEE IROS
+# 👨‍🔬 Services
+- **Reviewer:** IEEE IROS, MICCAI workshop
 - **Teaching Assistants:** ELEG2202: Fundamentals of Electric Circuits; ELEG3103: Robotic Perception and Intelligence.
 - **Activity:** MC in graduation dinner of CUHK EE; MC in Christmas dinner of CUHK EE.
+- **Volunteer:** Physician Assistant in free clinic (with Prof. Cheung).
 
-# 💻 Language
+# 🗣️ Language
 - Chinese (Cantonese, Mandarin, Hakka)
 - English
 
