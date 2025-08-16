@@ -1,25 +1,21 @@
-# 📖 Educations
-- *2024.09 - 2028.08 (expected)*, PhD, CUHK, Hong Kong.
-- *2020.08 - 2024.07*, Undergraduate, CUHK, Hong Kong.
-- *2017.09 - 2020.07*, Puiching Middel School, Hong Kong.
+## 📖 Education {#education}
+- **Sep 2024 – Aug 2028 (expected)** — PhD, **CUHK**, Hong Kong  
+- **Aug 2020 – Jul 2024** — BEng (1st Class Honours, rank 1/54), **CUHK**, Hong Kong  
+- **Sep 2017 – Jul 2020** — **Pui Ching Middle School**, Hong Kong
 
-# 👨‍🔬 Services
-- **Reviewer:** IEEE IROS, MICCAI workshop
-- **Activity:** MC in graduation dinner of CUHK EE; MC in Christmas dinner of CUHK EE.
-- **Volunteer:** Physician Assistant in free clinic (with Prof. Cheung).
+## 👨‍🔬 Services {#services}
+- **Reviewer:** IEEE/RSJ IROS; MICCAI Workshops  
+- **Activities:** MC at CUHK EE Graduation Dinner; MC at CUHK EE Christmas Dinner  
+- **Volunteer:** Clinical assistant at a free clinic (with Prof. Cheung)  <!-- use “Physician Assistant” only if formally qualified -->
 
-# 🗣️ Language
-- Chinese (Cantonese, Mandarin, Hakka)
+## 👨‍🏫 Teaching {#teaching}
+**Teaching Assistantships**  
+- 2024–2025 Spring — **ELEG3103 Robotic Perception and Intelligence**  
+- 2024–2025 Fall — **ELEG2202 Fundamentals of Electric Circuits**
+
+**Mentees**  
+- **Sean Kong Ko Lun** — [website](https://seancolin.faculty.bio/) · UG intern → PhD student, CityU
+
+## 🗣️ Languages {#languages}
+- Chinese: Cantonese, Mandarin, Hakka  
 - English
-
-# 👨‍🏫 Teaching
-
-**Teaching Assistantships:**  
-- 2024-2025 Spring: ELEG3103 Robotic Perception and Intelligence  
-- 2024-2025 Fall: ELEG2202 Fundamentals of Electric Circuits
-
-**Mentees:**  
-- Sean Kong Ko Lun [website](https://seancolin.faculty.bio/) \| UG intern \|  → Ph.D. Student, CityU
-
-
-
