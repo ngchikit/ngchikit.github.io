@@ -21,9 +21,10 @@ I’m happy to cooperate with **CUHK EE undergraduates** (including **FYP**), **
 
 ## Example Topics (mix & match)
 
-- **Vision-Language-Action (VLA)** for endoscopic navigation & autonomous tracking  
+- **Vision-Language-Action (VLA)** with Large Language Model (LLM) as backbone
+- **Robotics+** such as continuum robot (CR) and dual-arm robot with Augmented reality (AR) applied to medical applications 
 - **Reinforcement Learning / Diffusion-based action models** for trajectory generation  
-- **Soft/continuum robot control** (tendon-driven, Cosserat models, stiffness tuning)  
+- **Soft/continuum robot control** (tendon-driven, Cosserat models, stiffness tuning modeling)  
 - **Perception**: RGB/OCT/HSI sensing, sensor fusion, FBG-based shape estimation  
 - **Sim-to-Real**: SOFA/Blender simulation, domain randomization, data engines  
 - **Safety & evaluation**: risk maps, autonomy metrics, clinical task benchmarking
