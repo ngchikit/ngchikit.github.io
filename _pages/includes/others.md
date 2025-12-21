@@ -4,7 +4,7 @@
 - **Sep 2017 – Jul 2020** — **Pui Ching Middle School**, Hong Kong
 
 ## 👨‍🔬 Services {#services}
-- **Reviewer:** IEEE/RSJ IROS; MICCAI Workshops  
+- **Reviewer:** IROS; ICRA; CVPR; RoboSoft; MICCAI workshop
 - **Activities:** MC at CUHK EE Graduation Dinner; MC at CUHK EE Christmas Dinner  
 - **Volunteer:** Clinical assistant at a free clinic (with Prof. Cheung)  <!-- use “Physician Assistant” only if formally qualified -->
 
