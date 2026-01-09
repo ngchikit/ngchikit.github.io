@@ -25,11 +25,11 @@ I’m happy to cooperate with **CUHK EE undergraduates** (including **FYP**), **
 - **Robotics+**: AR/VR
 - **Reinforcement Learning**
 - **Soft/continuum robot control** (tendon-driven, Cosserat models, stiffness tuning modeling)  
-
 - **AIoT**: Artificial Intelligence + Internet of Things
 - **Federated Learning (FL)**
 - **AI Chips**
 - **Cross-border Communication**
+
 ---
 
 ## Previous research experiences
