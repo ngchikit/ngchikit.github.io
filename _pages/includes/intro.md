@@ -29,6 +29,10 @@ I’m happy to cooperate with **CUHK EE undergraduates** (including **FYP**), **
 - **Sim-to-Real**: SOFA/Blender simulation, domain randomization, data engines  
 - **Safety & evaluation**: risk maps, autonomy metrics, clinical task benchmarking
 
+- **AIoT**: Artificial Intelligence + Internet of Things
+- **Federated Learning (FL)**
+- **AI Chips**
+- **Cross-border Communication**
 ---
 
 ## Previous research experiences
