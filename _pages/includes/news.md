@@ -1,4 +1,5 @@
 # 🔥 News
+- *2.2026*: 3 papers accepted by IEEE-ICRA. Thanks all contributors~
 - *10.2025*: Our SoftVisioBots team won the The First Place Award in ACM MM 2025 RoboSoft Workshop! Thanks all teammates~
 - *10.2025*: CAN-DRL accepted by `IEEE-RoBio 2025` (Best Paper Award in Robotics).
 - *8.2025*: EndoVLA accepted by `CoRL 2025` (spotlight). 
