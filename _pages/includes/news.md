@@ -1,5 +1,5 @@
 # 🔥 News
-- *3.2026* Our embodied endoscopy dataset is available via [Nvidia Open-H-Embodiment collection](https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Open-H-Embodiment). Thanks all contributors~  
+- *3.2026*: Our embodied endoscopy dataset is available via [Nvidia Open-H-Embodiment collection](https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Open-H-Embodiment). Thanks all contributors~  
 - *2.2026*: 3 papers accepted by `IEEE-ICRA`. Thanks all contributors~
 - *10.2025*: Our SoftVisioBots team won the The First Place Award in ACM MM 2025 RoboSoft Workshop! Thanks all teammates~
 - *10.2025*: CAN-DRL accepted by `IEEE-RoBio 2025` (Best Paper Award in Robotics).
