@@ -4,16 +4,15 @@
 - **Sep 2017 – Jul 2020** — **Pui Ching Middle School**, Hong Kong
 
 ## 👨‍🔬 Services {#services}
-- **Reviewer:** IROS; ICRA; CVPR; RoboSoft; MICCAI workshop
-- **Activities:** MC at CUHK EE Graduation Dinner; MC at CUHK EE Christmas Dinner  
-- **Volunteer:** Clinical assistant at a free clinic (with Prof. Cheung)  <!-- use “Physician Assistant” only if formally qualified -->
+- **Reviewer:** MIR; CVPR; ECCV; IROS; ICRA; RoboSoft
 
 ## 👨‍🏫 Teaching {#teaching}
 **Teaching Assistantships**  
-- 2024–2025 Spring — **ELEG3103 Robotic Perception and Intelligence**  
-- 2024–2025 Fall — **ELEG2202 Fundamentals of Electric Circuits**
+- 2024–2026 Spring — **ELEG3103 Robotic Perception and Intelligence**  
+- 2024–2026 Fall — **ELEG2202 Fundamentals of Electric Circuits**
 
 **Mentees**  
+- **Yuqing Wei** · UG FYP → Stanford
 - **Sean Kong Ko Lun** — [website](https://seancolin.faculty.bio/) · UG intern → PhD student, CityU
 
 ## 🗣️ Languages {#languages}
