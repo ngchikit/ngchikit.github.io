@@ -7,7 +7,7 @@
 - *3.2026*: Our embodied endoscopy dataset is available via [Nvidia Open-H-Embodiment collection](https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Open-H-Embodiment). Thanks all contributors~  
 - *2.2026*: 3 papers accepted by `IEEE-ICRA`. Thanks all contributors~
 - *10.2025*: Our SoftVisioBots team won the The First Place Award in ACM MM 2025 RoboSoft Workshop! Thanks all teammates~
-- *10.2025*: CAN-DRL accepted by `IEEE ROBIO 2025` (Best Paper Award in Robotics).
+- *10.2025*: CAN-DRL accepted by `IEEE ROBIO 2025` — **T.J. Tarn Best Paper Award in Robotics**. [[project page](/renlab-endoscopic-projects/can.html)]
 - *8.2025*: EndoVLA accepted by `CoRL 2025` (spotlight). 
 - *6.2025*: JEDP accepted by `IEEE-IROS-2025` (Oral).
 - *12.2024*: 🎉 Establish personal webpage

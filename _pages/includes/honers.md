@@ -2,7 +2,7 @@
 - *2026* Talent Development Scholarship by HKSAR government
 - *2026* Lead "CR agent for fire rescuing" with third prize of [HK Challenge Plus](https://www.hkchallengeplus.com/prize-list-and-review/%E7%AC%AC12%E5%B1%86%E9%A6%99%E6%B8%AF%E5%A4%A7%E5%AD%B8%E7%94%9F%E5%89%B5%E6%96%B0%E5%8F%8A%E5%89%B5%E6%A5%AD%E5%A4%A7%E8%B3%BD-%E5%BE%97%E7%8D%8E%E5%90%8D%E5%96%AE2026/)
 - *2025* Lead "Soft VLA" with the First Place Award in ACM MM 2025 RoboSoft Workshop
-- *2025* IEEE ROBIO Best Paper Award
+- *2025* **T.J. Tarn Best Paper Award in Robotics**, IEEE ROBIO 2025 — [Contact-Aided Navigation](/renlab-endoscopic-projects/can.html)
 - *2024* [CUHK Capstone Project Competition Grand Final 2024 (Creative Award)](https://www.focus.cuhk.edu.hk/en/20240523/unveiling-cuhks-first-capstone-project-presentation-competition/043-student-life/)
 - *2022,23,24* CUHK Faculty Dean’s List 
 - *2021,22,23,24* CUHK United College Head’s List
