@@ -1,4 +1,5 @@
-# 🔥 News
+# 🔥 News {#news}
+- *8.2026*: EndoLIFT preprint released — bidirectional endoscopic control with language-disambiguated intent. [[project page](/renlab-endoscopic-projects/endolift.html)]
 - *6.2026*: 1 UG FYP paper accepted by `ICBIR`. Congrat Hang Li！
 - *6.2026*: 1 paper accepted by `RSS workshop`. Congrat Xiyue！
 - *6.2026*: 1 paper accepted by `IEEE-IROS`. Congrat [Jinsong](https://jinsonglin-cuhk.github.io/).
@@ -6,7 +7,7 @@
 - *3.2026*: Our embodied endoscopy dataset is available via [Nvidia Open-H-Embodiment collection](https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Open-H-Embodiment). Thanks all contributors~  
 - *2.2026*: 3 papers accepted by `IEEE-ICRA`. Thanks all contributors~
 - *10.2025*: Our SoftVisioBots team won the The First Place Award in ACM MM 2025 RoboSoft Workshop! Thanks all teammates~
-- *10.2025*: CAN-DRL accepted by `IEEE-RoBio 2025` (Best Paper Award in Robotics).
+- *10.2025*: CAN-DRL accepted by `IEEE ROBIO 2025` (Best Paper Award in Robotics).
 - *8.2025*: EndoVLA accepted by `CoRL 2025` (spotlight). 
 - *6.2025*: JEDP accepted by `IEEE-IROS-2025` (Oral).
 - *12.2024*: 🎉 Establish personal webpage

@@ -12,7 +12,9 @@ repository               : "ngchikit/ngchikit.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
-google_analytics_id      : G9cJp_MAAAAJ
+# google_analytics_id: put a real GA4 measurement id here (looks like G-XXXXXXXXXX).
+# G9cJp_MAAAAJ is a Google Scholar user id, not an analytics id.
+google_analytics_id      :
 
 # SEO Related
 google_site_verification : b_BbOIt7d513ZXYDw-YRMicO6O5tthYiouqWDdWjGTU
@@ -27,7 +29,7 @@ author:
   location         : "Hong Kong"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=SCHOLAR_ID&user=G9cJp_MAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=G9cJp_MAAAAJ"
   email            : "chikitng@link.cuhk.edu.hk"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
