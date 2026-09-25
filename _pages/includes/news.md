@@ -1,5 +1,5 @@
 # 🔥 News {#news}
-- *9.2026*: Our work on visual quality examination of colonscopy accepted by top clincal conference UEG [[UEG 2026](https://ueg.eu/week)] 🎉
+- *9.2026*: Our work on visual quality examination of colonscopy accepted by top clinical conference UEG [[UEG 2026](https://ueg.eu/week)] 🎉
 - *8.2026*: EndoLIFT preprint released — bidirectional endoscopic control with language-disambiguated intent. [[project page](/renlab-endoscopic-projects/endolift.html)]
 - *6.2026*: 1 UG FYP paper accepted by `ICBIR`. Congrat Hang Li！
 - *6.2026*: 1 paper accepted by `RSS workshop`. Congrat Xiyue！
