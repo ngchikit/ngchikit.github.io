@@ -1,4 +1,5 @@
 # 🔥 News {#news}
+- *10.2026*: EndoRSI preprint released — [EndoRSI: Physical-Evidence-Driven Recursive Improvement of Endoscopic Robot Policies](https://arxiv.org/abs/2610.13376).
 - *9.2026*: Our work on Flexible Whole-body Tactile Sensing on a Soft Continuum Robot got the best poster award in [[IROS workshop](https://sites.google.com/view/iros26-ws-robot4tissuesurgery/home)] 🎉
 - *9.2026*: Our work on visual quality examination of colonscopy accepted by top clinical conference [[UEG 2026](https://ueg.eu/week)] 🎉
 - *8.2026*: EndoLIFT preprint released — bidirectional endoscopic control with language-disambiguated intent. [[project page](/renlab-endoscopic-projects/endolift.html)]
