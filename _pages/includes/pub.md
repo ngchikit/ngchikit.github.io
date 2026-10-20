@@ -2,6 +2,10 @@
 
 <sup>&#42;</sup> equal contribution · <sup>&#8224;</sup> corresponding author. Full list on [Google Scholar](https://scholar.google.com/citations?user=G9cJp_MAAAAJ).
 
+- `Preprint 2026` [EndoVLA-OOV: Language-Conditioned Out-of-View Target Acquisition in Robotic Endoscopy](https://arxiv.org/abs/2610.24747), **Chi Kit Ng**<sup>&#42;</sup>, Yidong Zhang<sup>&#42;</sup>, Tianchun Wu<sup>&#42;</sup>, Zhiqing Tang, Hanlin Zhao, Siu Hing Lui, Tao Yang, Jingsong Lin, Huxin Gao, Yeung Trevor, Raymond Tang, Hongliang Ren<sup>&#8224;</sup>.
+
+- `Preprint 2026` [EndoRSI: Physical-Evidence-Driven Recursive Improvement of Endoscopic Robot Policies](https://arxiv.org/abs/2610.13376), **Chi Kit Ng**<sup>&#42;</sup>, Yidong Zhang<sup>&#42;</sup>, Tianchun Wu, Siu Hing Lui, Hanlin Zhao, Huxin Gao, Hongliang Ren<sup>&#8224;</sup>.
+
 - `Preprint 2026` [EndoLIFT: Language-Disambiguated Latent-Conditioned Rectified Flow for Bidirectional Endoscopic Control](https://arxiv.org/abs/2608.20478), **Chi Kit Ng**<sup>&#42;</sup>, Yidong Zhang<sup>&#42;</sup>, Lui Siu Hing<sup>&#42;</sup>, Jinsong Lin<sup>&#42;</sup>, Tianchun Wu, Ho Yin Chim, Zhiqing Tang, Tao Yang, Huxin Gao, Trevor Yeung, Raymond Shing-Yan Tang, Hongliang Ren<sup>&#8224;</sup>. \[[project page](/renlab-endoscopic-projects/endolift.html)\]
 
 - `Preprint 2026` [CrossScope: A Role-Asymmetric World Model for Joint Dual-Scope Surgical Video Prediction](https://arxiv.org/abs/2608.03211), Wanhao Liu, Jinsong Lin, Rulin Zhou, **Chi Kit Ng**, Wenbin Pan, Zhiqing Tang, Dongyue Li, Liwei Luo, Yanshen Wu, Panshuo Li, Zhiyong Xiong, Huxin Gao, Tamas Haidegger, Hongliang Ren<sup>&#8224;</sup>.
