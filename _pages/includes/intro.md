@@ -1,6 +1,6 @@
 # About Me
 
-Hi! I’m **Chi Kit Ng (Justin)**, a PhD student at **The Chinese University of Hong Kong (CUHK)** in Electronic Engineering, supervised by [Prof. Hongliang Ren](https://scholar.google.com.hk/citations?user=rcF7N44AAAAJ&hl=en) in [IMMlab](http://www.labren.org/mm/).  
+Hi! I’m **Chi Kit Ng (Justin)**, a PhD student and **Hong Kong PhD Fellowship (HKPFS) Awardee** at **The Chinese University of Hong Kong (CUHK)** in Electronic Engineering, supervised by [Prof. Hongliang Ren](https://scholar.google.com.hk/citations?user=rcF7N44AAAAJ&hl=en) in [IMMlab](http://www.labren.org/mm/).  
 My research focuses on **end-to-end autonomous control of robotic endoscopes** and intelligent surgical robotics.  
 I serve as a **postgraduate student representative to the Department Board of Electronic Engineering** for **2025–27**.
 
