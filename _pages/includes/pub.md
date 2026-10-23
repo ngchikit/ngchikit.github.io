@@ -2,6 +2,10 @@
 
 <sup>&#42;</sup> equal contribution · <sup>&#8224;</sup> corresponding author. Full list on [Google Scholar](https://scholar.google.com/citations?user=G9cJp_MAAAAJ).
 
+- `Preprint 2026` [EBV-CAN: Vision–Language Grounding for Contact-Aided Endoscope Navigation](https://arxiv.org/abs/2610.30786), **Chi Kit Ng**<sup>&#42;</sup>, Shuchang Liu<sup>&#42;</sup>, Jinsong Lin<sup>&#42;</sup>, Yidong Zhang, Xizi Wang, Ho Yin Chim, Hongliang Ren<sup>&#8224;</sup>.
+
+- `Preprint 2026` [Multimodal Progress-Residual Fusion for Anticipating Navigation Retreat in Robotic Flexible Endoscopy](https://arxiv.org/abs/2610.31028), **Chi Kit Ng**<sup>&#42;</sup>, Tianchun Wu<sup>&#42;</sup>, Jiatan Sun<sup>&#42;</sup>, Yuming Sun, Jianru Zhang, Hongliang Ren<sup>&#8224;</sup>.
+
 - `Preprint 2026` [EndoVLA-OOV: Language-Conditioned Out-of-View Target Acquisition in Robotic Endoscopy](https://arxiv.org/abs/2610.24747), **Chi Kit Ng**<sup>&#42;</sup>, Yidong Zhang<sup>&#42;</sup>, Tianchun Wu<sup>&#42;</sup>, Zhiqing Tang, Hanlin Zhao, Siu Hing Lui, Tao Yang, Jingsong Lin, Huxin Gao, Yeung Trevor, Raymond Tang, Hongliang Ren<sup>&#8224;</sup>.
 
 - `Preprint 2026` [EndoRSI: Physical-Evidence-Driven Recursive Improvement of Endoscopic Robot Policies](https://arxiv.org/abs/2610.13376), **Chi Kit Ng**<sup>&#42;</sup>, Yidong Zhang<sup>&#42;</sup>, Tianchun Wu, Siu Hing Lui, Hanlin Zhao, Huxin Gao, Hongliang Ren<sup>&#8224;</sup>.
