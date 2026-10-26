@@ -12,7 +12,7 @@ redirect_from:
   <aside class="profile-portrait">
     <img class="portrait" src="/{{ site.author.avatar }}" alt="Chi Kit Ng (Justin)" width="216" height="270" fetchpriority="high">
     <p class="profile-location"><span aria-hidden="true">●</span> Hong Kong · CUHK</p>
-    <a class="profile-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+    {% include contact-link.html class="profile-email" id="contact" label="Email me ↗" %}
     <div class="profile-links"><a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Scholar ↗</a><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div>
   </aside>
   <div class="hero-copy">

@@ -15,6 +15,7 @@
   <link rel="icon" href="/images/32_32.png" type="image/png">
   <link rel="stylesheet" href="/assets/css/home.css?v=20261027-map">
   <script defer src="/assets/js/home.js?v=20261027-map"></script>
+  {% include contact-head.html %}
 </head>
 <body class="academic-home{% unless page.homepage %} project-detail{% endunless %}">
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -22,7 +23,7 @@
     <div class="header-inner">
       <a class="wordmark" href="/" aria-label="Chi Kit Ng homepage">CK<span>Ng.</span></a>
       <nav aria-label="Main navigation">
-        <a href="/#about-me">About</a><a href="/#news">News</a><a href="/#publications">Research</a><a href="/#research-experience">Experience</a><a href="mailto:{{ site.author.email }}">Contact ↗</a>
+        <a href="/#about-me">About</a><a href="/#news">News</a><a href="/#publications">Research</a><a href="/#research-experience">Experience</a>{% include contact-link.html label="Contact ↗" %}
       </nav>
     </div>
   </header>
@@ -55,5 +56,6 @@
     <div class="footer-bottom"><span>© {{ site.time | date: '%Y' }} Chi Kit Ng · The Chinese University of Hong Kong</span><a href="#main-content">Back to top ↑</a></div>
   </footer>
   <dialog class="figure-dialog" aria-labelledby="figure-caption"><button type="button" class="dialog-close" aria-label="Close figure">×</button><img alt=""><p id="figure-caption"></p></dialog>
+  {% include contact-dialog.html %}
 </body>
 </html>

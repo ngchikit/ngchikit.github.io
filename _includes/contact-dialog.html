@@ -1,0 +1,13 @@
+<dialog class="contact-dialog" id="contact-dialog" aria-labelledby="contact-title" aria-describedby="contact-description" data-contact-address="{{ site.author.email_encoded }}">
+  <button type="button" class="contact-close" data-contact-close aria-label="Close contact details">×</button>
+  <p class="contact-kicker">Chi Kit Ng · CUHK</p>
+  <h2 id="contact-title">Get in touch.</h2>
+  <p id="contact-description">For research, student projects and opportunities.</p>
+  <label class="contact-label" for="contact-address">Email address</label>
+  <input class="contact-address" id="contact-address" type="text" readonly spellcheck="false" autocomplete="off" data-contact-value>
+  <div class="contact-actions">
+    <a class="contact-compose" data-contact-compose>Open email app ↗</a>
+    <button type="button" class="contact-copy" data-contact-copy>Copy address</button>
+  </div>
+  <p class="contact-status" data-contact-status role="status" aria-live="polite"></p>
+</dialog>
