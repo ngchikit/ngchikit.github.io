@@ -1,155 +1,60 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="REN Lab projects in autonomous endoscopic control.">
-  <title>Endoscopic Autonomy · REN Lab</title>
-  <link rel="canonical" href="https://ngchikit.github.io/renlab-endoscopic-projects/">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="REN Lab · Endoscopic Autonomy">
-  <meta property="og:title" content="Endoscopic Autonomy · REN Lab">
-  <meta property="og:description" content="REN Lab research on perception, interaction, and language-conditioned control for autonomous flexible endoscopy.">
-  <meta property="og:url" content="https://ngchikit.github.io/renlab-endoscopic-projects/">
-  <meta property="og:image" content="https://ngchikit.github.io/renlab-endoscopic-projects/assets/endovla.jpg">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="site-header">
-    <a class="wordmark" href="index.html"><span class="wordmark-dot"></span>REN Lab Projects</a>
-    <nav aria-label="Sections"><a href="endovla.html">EndoVLA</a><a href="can.html">CAN</a><a href="endolift.html">EndoLIFT</a><a href="#team">Team</a><a href="#join">Join</a></nav>
-    <a class="header-link" href="http://www.labren.org/mm/" target="_blank" rel="noreferrer">Lab site ↗</a>
-  </header>
-  <main>
-    <section class="projects-hero">
-      <p class="eyebrow">REN Lab · Robotic Endoscopy</p>
-      <h1>Endoscopic<br><span style="color:var(--accent)">Autonomy</span></h1>
-      <p>Research on perception, interaction, and language-conditioned control for autonomous flexible endoscopy.</p>
-      <div class="hero-chips">
-        <span class="chip chip-indigo">Vision-language-action</span>
-        <span class="chip chip-mint">Reinforcement learning</span>
-        <span class="chip chip-amber">Continuum robots</span>
-        <span class="chip chip-sky">Clinical phantoms &amp; ex-vivo</span>
-      </div>
-      <div class="hero-actions">
-        <a class="button" href="#open-projects">Open Projects @ CUHK EE</a>
-      </div>
-    </section>
-    <section class="project-list" aria-label="Project list">
-      <a class="project-card" href="endovla.html">
-        <img src="assets/endovla.jpg" alt="EndoVLA tracking a polyp in a stomach phantom">
-        <div><span class="section-kicker">01 · Vision-language-action</span><h2>EndoVLA</h2><p>Prompt-conditioned tracking for polyps, abnormal mucosa, and circumferential cutting markers.</p><span class="button button-primary">Open project</span></div>
-      </a>
-      <a class="project-card" href="can.html">
-        <img src="assets/can_result.jpg" alt="CAN navigation performance across target difficulty">
-        <div><span class="section-kicker">02 · Contact-rich control</span><h2>CAN</h2><span class="card-award">&#127942; T.J. Tarn Best Paper Award in Robotics · IEEE ROBIO 2025</span><p>Force-informed reinforcement learning for navigation in a dynamic, deformable stomach.</p><span class="button button-primary">Open project</span></div>
-      </a>
-      <a class="project-card" href="endolift.html">
-        <img src="assets/endolift.jpg" alt="EndoLIFT intent aliasing concept">
-        <div><span class="section-kicker">03 · Bidirectional control</span><h2>EndoLIFT</h2><p>Language-disambiguated action generation for forward navigation and urgent retraction.</p><span class="button button-primary">Open project</span></div>
-      </a>
-    </section>
+---
+layout: endoscopy
+title: Endoscopic Autonomy · REN Lab
+---
+<section class="lab-hero shell" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Robotic endoscopy · CUHK</p>
+    <h1 id="hero-title">From instruction<br>to <em>action.</em></h1>
+    <p class="hero-description">Learning to see, navigate and improve.<br>We build intelligent policies for flexible endoscopic robots.</p>
+    <div class="hero-actions"><a class="button primary" href="#projects">Explore the research <span aria-hidden="true">↘</span></a><a class="text-link" href="#open-projects">Work with us ↗</a></div>
+    <div class="hero-topics"><span>Vision + language</span><span>Robot learning</span><span>Physical evidence</span></div>
+  </div>
+  <div class="hero-showcase">
+    <div class="showcase-topline"><span><i aria-hidden="true"></i> IN THE LAB</span><span>01 / TARGET ACQUISITION</span></div>
+    <video class="hero-video" controls muted loop playsinline preload="none" poster="/assets/research/endovla-oov-lab-poster.jpg" data-autoplay-preview="/assets/research/endovla-oov-lab-preview.mp4" aria-label="EndoVLA-OOV robotic target acquisition preview"><a href="/assets/research/endovla-oov-full.mp4">Watch EndoVLA-OOV</a></video>
+    <div class="showcase-caption"><div><span>LANGUAGE-GUIDED EXPLORATION</span><strong>EndoVLA-OOV</strong></div><a href="endovla-oov.html" aria-label="Explore EndoVLA-OOV">↗</a></div>
+    <p class="showcase-footnote">12-second research preview · <a href="endovla-oov.html#demonstration">Watch the full demonstration</a></p>
+  </div>
+</section>
 
-    <section class="band open-projects" id="open-projects" aria-labelledby="open-projects-title">
-      <div class="band-head">
-        <p class="section-kicker">Research opportunities</p>
-        <h2 id="open-projects-title">Open Projects @ CUHK EE</h2>
-      </div>
-      <div class="sticker open-projects-card">
-        <p>I&rsquo;m happy to cooperate with <strong>CUHK EE undergraduates</strong> (including <strong>FYP</strong>), <strong>Summer Research Internship (SRI)</strong> students, and <strong>MSc students</strong> (course project or MSc project).</p>
-        <ul class="open-projects-list">
-          <li><span aria-hidden="true">&#127793;</span><div><strong>Undergraduates (FYP/Independent Study)</strong> &mdash; under supervision from <a href="https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/professors/prof-ren-hongliang">Prof. Ren</a> or <a href="https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/professors/prof-lai-jiewen">Prof. Lai</a> or <a href="https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/professors/prof-gao-huxin">Prof. Gao</a></div></li>
-          <li><span aria-hidden="true">&#9728;&#65039;</span><div><strong>Funded CUHK UG Summer Research Internship</strong> &mdash; see the official program: <a href="https://www3.erg.cuhk.edu.hk/erg/SummerResearchInternship">USRI</a></div></li>
-          <li><span aria-hidden="true">&#9728;&#65039;</span><div><strong>CUHK International Summer UG Research Program (SURP)</strong> &mdash; see the official program: <a href="https://www.oal.cuhk.edu.hk/202309-57-surp/">SURP</a></div></li>
-          <li><span aria-hidden="true">&#127891;</span><div><strong>MSc Projects</strong> &mdash; scoped research/engineering topics aligned with your interests</div></li>
-        </ul>
-        <p><strong>Feel free to reach out and discuss ideas!</strong></p>
-        <div class="open-projects-topics">
-          <h3>Example Topics (mix &amp; match)</h3>
-          <ul>
-            <li class="chip chip-indigo">Reinforcement Learning</li>
-            <li class="chip chip-mint">Recursive self-improvement agent</li>
-            <li class="chip chip-amber">World model</li>
-            <li class="chip chip-sky">Vision-language</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+<div class="research-thread shell" aria-label="Research themes"><div><span>01</span><strong>Perceive</strong><p>Connect visual observations with language.</p></div><div><span>02</span><strong>Navigate</strong><p>Turn intent into motion through interaction.</p></div><div><span>03</span><strong>Improve</strong><p>Learn from evidence in the physical world.</p></div></div>
 
-    <section class="band team" id="team">
-      <div class="band-head">
-        <p class="section-kicker">The people</p>
-        <h2>Who builds this</h2>
-      </div>
-      <article class="sticker pi-card">
-        <span class="pi-crest"><img src="assets/logos/cuhk_crest.png" alt=""></span>
-        <div class="pi-body">
-          <span class="tag tag-grape">Lab PI</span>
-          <h3>Hongliang Ren</h3>
-          <p>Principal investigator, REN Lab — Intelligent Medical Mechatronics, Department of Electronic Engineering, The Chinese University of Hong Kong. Corresponding author on all three projects below.</p>
-          <div class="pi-links">
-            <a class="button button-primary" href="http://www.labren.org/mm/" target="_blank" rel="noreferrer">Lab website ↗</a>
-            <a class="button" href="mailto:hlren@ee.cuhk.edu.hk">hlren@ee.cuhk.edu.hk</a>
-          </div>
-        </div>
-      </article>
-      <div class="people">
-        <a class="sticker person" href="https://ngchikit.github.io/" target="_blank" rel="noreferrer">
-          <span class="avatar avatar-indigo"><img src="assets/people/chikit.jpg" alt="Chi Kit Ng"></span>
-          <span class="tag tag-indigo">PhD · project lead</span>
-          <h3>Chi Kit Ng</h3>
-          <p>EndoVLA · CAN · EndoLIFT</p>
-          <span class="person-link">Homepage ↗</span>
-        </a>
-        <a class="sticker person" href="https://jinsonglin-cuhk.github.io/" target="_blank" rel="noreferrer">
-          <span class="avatar avatar-mint"><img src="assets/people/jinsong.jpg" alt="Jinsong Lin"></span>
-          <span class="tag tag-mint">PhD · project lead</span>
-          <h3>Jinsong (Jason) Lin</h3>
-          <p>EndoWAM · EndoLIFT</p>
-          <span class="person-link">Homepage ↗</span>
-        </a>
-        <a class="sticker person" href="https://evan0610.github.io/" target="_blank" rel="noreferrer">
-          <span class="avatar avatar-amber"><img src="assets/people/tianchun.jpg" alt="Tianchun Wu"></span>
-          <span class="tag tag-amber">Undergraduate lead</span>
-          <h3>Tianchun Wu</h3>
-          <p>EndoLIFT</p>
-          <span class="person-link">Homepage ↗</span>
-        </a>
-      </div>
-    </section>
+<section class="projects-section shell" id="projects" aria-labelledby="projects-title">
+  <div class="section-heading"><div><p class="eyebrow">The research collection</p><h2 id="projects-title">Small views.<br><span>New possibilities.</span></h2></div><p>Six projects exploring how endoscopic robots<br class="desktop-only"> perceive, act and learn.</p></div>
+  <div class="project-toolbar"><div class="project-filters" aria-label="Filter research projects" hidden><button type="button" data-filter="all" aria-pressed="true">All projects <span>06</span></button><button type="button" data-filter="language" aria-pressed="false">Language & vision</button><button type="button" data-filter="navigation" aria-pressed="false">Navigation</button><button type="button" data-filter="improvement" aria-pressed="false">Self-improvement</button></div><span class="project-count" role="status" aria-live="polite">06 projects</span></div>
+  <div class="project-grid">
+    {% for project in site.data.endoscopy.projects %}
+    {% assign paper = site.data.selected_publications | where: 'id', project.id | first %}
+    <article class="research-card theme-{{ project.theme }}" data-category="{{ project.category }}">
+      <a class="card-cover{% if forloop.index > 3 %} video-cover{% endif %}" href="{{ paper.project }}" aria-label="Explore {{ project.name }}"><img src="{{ project.cover }}" alt="{{ paper.alt | escape }}" loading="lazy" decoding="async" width="600" height="380"><span class="cover-arrow" aria-hidden="true">↗</span>{% if forloop.index > 3 %}<span class="cover-label">▶ Demonstration</span>{% endif %}</a>
+      <div class="card-copy"><div class="card-meta"><span>{{ project.topic }}</span><span class="project-index">0{{ forloop.index }}</span></div><h3><a href="{{ paper.project }}">{{ project.name }}</a></h3><p class="card-tagline">{{ project.tagline }}</p><p class="card-description">{{ paper.description }}</p><div class="card-bottom"><span class="project-badge">{{ project.label }}</span><a href="{{ paper.paper }}" target="_blank" rel="noopener noreferrer" aria-label="Read the {{ project.name }} paper">Paper ↗</a></div></div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
 
-    <section class="band join" id="join">
-      <article class="sticker join-card">
-        <div class="join-copy">
-          <span class="tag tag-amber">Talents wanted</span>
-          <h2>One funded RA position<br>is open right now.</h2>
-          <p>We are looking for one research assistant to join the endoscopic autonomy effort — robot learning, continuum-robot control, and clinical phantom / ex-vivo experiments.</p>
-          <a class="button button-primary button-big" href="mailto:sharerpailab@gmail.com?subject=clinical01%20funded%20RA%20application">Apply by email →</a>
-        </div>
-        <ol class="join-steps">
-          <li><b>1</b><span>Send your <strong>CV</strong> and <strong>transcript</strong> to <a href="mailto:sharerpailab@gmail.com?subject=clinical01%20funded%20RA%20application">sharerpailab@gmail.com</a></span></li>
-          <li><b>2</b><span>Use exactly this subject line:<code>clinical01 funded RA application</code></span></li>
-          <li><b>3</b><span>Candidates will be arranged a <strong>Zoom or face-to-face interview</strong>.</span></li>
-        </ol>
-      </article>
-    </section>
+<section class="opportunities-section" id="open-projects" aria-labelledby="open-projects-title"><div class="shell opportunities-grid">
+  <div class="opportunity-intro"><p class="eyebrow">Make your next project count</p><h2 id="open-projects-title">Open Projects<br><span>@ CUHK EE</span></h2><p>I’m happy to cooperate with CUHK EE undergraduates (including FYP), Summer Research Internship (SRI) students, and MSc students (course project or MSc project).</p><a class="button primary" href="mailto:chikitng@link.cuhk.edu.hk?subject=CUHK%20EE%20research%20project">Let’s discuss an idea <span>↗</span></a><div class="topic-list"><h3>Example Topics (mix & match)</h3><ul><li>Reinforcement Learning</li><li>Recursive self-improvement agent</li><li>World model</li><li>Vision-language</li></ul></div></div>
+  <div class="opportunity-paths">
+    <article><span>01</span><div><h3>Undergraduate projects</h3><p>FYP / Independent Study, under supervision from <a href="https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/professors/prof-ren-hongliang" target="_blank" rel="noopener noreferrer">Prof. Ren</a>, <a href="https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/professors/prof-lai-jiewen" target="_blank" rel="noopener noreferrer">Prof. Lai</a> or <a href="https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/professors/prof-gao-huxin" target="_blank" rel="noopener noreferrer">Prof. Gao</a>.</p></div></article>
+    <article><span>02</span><div><h3>Funded CUHK UG Summer Research Internship</h3><p>See the official program for details.</p><a class="text-link" href="https://www3.erg.cuhk.edu.hk/erg/SummerResearchInternship" target="_blank" rel="noopener noreferrer">Explore USRI ↗</a></div></article>
+    <article><span>03</span><div><h3>CUHK International Summer UG Research Program</h3><p>See the official program for details.</p><a class="text-link" href="https://www.oal.cuhk.edu.hk/202309-57-surp/" target="_blank" rel="noopener noreferrer">Explore SURP ↗</a></div></article>
+    <article><span>04</span><div><h3>MSc projects</h3><p>Scoped research and engineering topics aligned with your interests.</p></div></article>
+  </div>
+</div></section>
 
-    <section class="affiliation-band" aria-label="Affiliations">
-      <p class="section-kicker">Affiliations</p>
-      <div class="orgs orgs-plain">
-        <img class="org-cuhk" src="assets/logos/cuhk.png" alt="The Chinese University of Hong Kong">
-        <img class="org-round" src="assets/logos/cu_medicine.png" alt="CU Medicine, The Chinese University of Hong Kong">
-        <img class="org-round" src="assets/logos/stanford.png" alt="Stanford University">
-        <img class="org-tum" src="assets/logos/tum.svg" alt="Technical University of Munich">
-        <img class="org-round" src="assets/logos/sy6h.png" alt="The Sixth Affiliated Hospital, Sun Yat-sen University">
-      </div>
-    </section>
-  </main>
-  <footer>
-    <span>REN Lab · The Chinese University of Hong Kong</span>
-    <span class="footer-links"><a href="http://www.labren.org/mm/" target="_blank" rel="noreferrer">labren.org ↗</a><a href="https://jinsonglin-cuhk.github.io/renlab-project-homepages/EndoWAM/" target="_blank" rel="noreferrer">EndoWAM ↗</a><a href="#join">Join us</a></span>
-    <span>© 2026 REN Lab</span>
-  </footer>
-</body>
-</html>
+<section class="team-section shell" id="team" aria-labelledby="team-title">
+  <div class="section-heading"><div><p class="eyebrow">The people behind the work</p><h2 id="team-title">Research is a team effort.</h2></div><a class="text-link" href="http://www.labren.org/mm/" target="_blank" rel="noopener noreferrer">Meet REN Lab ↗</a></div>
+  <article class="principal-investigator"><div class="pi-mark"><img src="assets/logos/cuhk_crest.png" width="70" height="90" alt="CUHK crest" loading="lazy"></div><div><span class="person-role">Principal investigator</span><h3>Hongliang Ren</h3><p>REN Lab · Intelligent Medical Mechatronics<br>Department of Electronic Engineering, The Chinese University of Hong Kong</p></div><a class="text-link" href="mailto:hlren@ee.cuhk.edu.hk">Get in touch ↗</a></article>
+  <div class="people-grid">
+    <a class="person-card" href="/"><img src="assets/people/chikit.jpg" alt="Chi Kit Ng" width="88" height="88" loading="lazy"><div><span class="person-role">PhD · project lead</span><h3>Chi Kit Ng <span>↗</span></h3><p>Endoscopic learning & autonomy</p></div></a>
+    <a class="person-card" href="https://jinsonglin-cuhk.github.io/" target="_blank" rel="noopener noreferrer"><img src="assets/people/jinsong.jpg" alt="Jinsong Lin" width="88" height="88" loading="lazy"><div><span class="person-role">PhD · project lead</span><h3>Jinsong Lin <span>↗</span></h3><p>EndoWAM · EndoLIFT · EBV-CAN</p></div></a>
+    <a class="person-card" href="https://evan0610.github.io/" target="_blank" rel="noopener noreferrer"><img src="assets/people/tianchun.jpg" alt="Tianchun Wu" width="88" height="88" loading="lazy"><div><span class="person-role">Undergraduate lead</span><h3>Tianchun Wu <span>↗</span></h3><p>EndoVLA-OOV · EndoLIFT · EndoRSI</p></div></a>
+  </div>
+  <p class="team-note">Full author lists and contributions are provided on each project page.</p>
+</section>
+
+<section class="join-section shell" id="join" aria-labelledby="join-title"><div class="join-panel"><div class="join-intro"><p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Join the research</p><h2 id="join-title">Build what<br>comes next.</h2><p>One funded research assistant position is open for robot learning, continuum-robot control, and clinical phantom / ex-vivo experiments.</p><a class="button light" href="mailto:sharerpailab@gmail.com?subject=clinical01%20funded%20RA%20application">Apply by email <span>↗</span></a></div><div class="join-instructions"><p class="join-label">HOW TO APPLY</p><ol><li><span>01</span><p>Send your <strong>CV and transcript</strong> to<br><a href="mailto:sharerpailab@gmail.com?subject=clinical01%20funded%20RA%20application">sharerpailab@gmail.com ↗</a></p></li><li><span>02</span><p>Use this email subject:<code>clinical01 funded RA application</code></p></li><li><span>03</span><p>Candidates will be arranged a Zoom or face-to-face interview.</p></li></ol></div></div></section>
+
+<section class="affiliations-section shell" aria-labelledby="affiliations-title"><p id="affiliations-title" class="eyebrow">Affiliations</p><div class="affiliation-logos"><img class="logo-cuhk" src="assets/logos/cuhk.png" alt="The Chinese University of Hong Kong" loading="lazy"><img src="assets/logos/cu_medicine.png" alt="CU Medicine" loading="lazy"><img src="assets/logos/stanford.png" alt="Stanford University" loading="lazy"><img class="logo-tum" src="assets/logos/tum.svg" alt="Technical University of Munich" loading="lazy"><img src="assets/logos/sy6h.png" alt="The Sixth Affiliated Hospital, Sun Yat-sen University" loading="lazy"></div><a class="text-link companion-project" href="https://jinsonglin-cuhk.github.io/renlab-project-homepages/EndoWAM/" target="_blank" rel="noopener noreferrer">Explore the related EndoWAM project ↗</a></section>

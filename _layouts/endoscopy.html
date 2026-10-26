@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% assign paper = site.data.selected_publications | where: 'id', page.publication | first %}
+  <title>{% if page.publication %}{{ paper.short }}{% else %}Endoscopic Autonomy{% endif %} · REN Lab</title>
+  <meta name="description" content="{% if paper %}{{ paper.description | escape }}{% else %}Research in vision, language and learning for autonomous flexible endoscopy at REN Lab, The Chinese University of Hong Kong.{% endif %}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if paper %}{{ paper.title | escape }}{% else %}Endoscopic Autonomy · REN Lab{% endif %}">
+  <meta property="og:image" content="https://ngchikit.github.io{% if paper %}{{ paper.figure }}{% else %}/assets/research/endovla-oov-poster.jpg{% endif %}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#102b35">
+  <link rel="icon" href="/images/32_32.png" type="image/png">
+  <link rel="stylesheet" href="/renlab-endoscopic-projects/projects.css?v=20261027">
+  <script src="/renlab-endoscopic-projects/projects.js?v=20261027" defer></script>
+</head>
+<body class="lab-site{% if page.publication %} paper-page{% endif %}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="lab-header">
+    <div class="shell header-content">
+      <a class="lab-brand" href="/renlab-endoscopic-projects/" aria-label="REN Lab endoscopic autonomy projects"><span class="brand-symbol" aria-hidden="true"><i></i></span><span>REN<span class="brand-light">LAB</span><small>ENDOSCOPIC AUTONOMY</small></span></a>
+      <nav aria-label="Main navigation"><a href="/renlab-endoscopic-projects/#projects">Research</a><a href="/renlab-endoscopic-projects/#team">People</a><a href="/renlab-endoscopic-projects/#open-projects">Opportunities</a></nav>
+      <a class="header-home" href="/">Chi Kit Ng <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="main">{{ content }}</main>
+  <footer class="lab-footer shell">
+    <div><a class="footer-brand" href="/renlab-endoscopic-projects/">REN Lab <span>/ Endoscopic Autonomy</span></a><p>The Chinese University of Hong Kong</p></div>
+    <div class="footer-links"><a href="http://www.labren.org/mm/" target="_blank" rel="noopener noreferrer">Lab website ↗</a><a href="/">Chi Kit Ng ↗</a><a href="/renlab-endoscopic-projects/#join">Join us ↗</a></div>
+    <span class="footer-year">© {{ site.time | date: '%Y' }} REN Lab</span>
+  </footer>
+  <dialog class="figure-dialog" aria-labelledby="figure-description"><button type="button" class="dialog-close" aria-label="Close figure">×</button><img alt=""><p id="figure-description"></p></dialog>
+</body>
+</html>

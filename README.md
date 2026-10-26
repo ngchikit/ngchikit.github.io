@@ -29,7 +29,7 @@ Some examples:
 - Selected publications: `_data/selected_publications.json`. Each entry supplies the paper, project page, authors, figure, and optional demonstration video.
 - Full bibliography and news: `_pages/includes/pub.md` and `_pages/includes/news.md`. The selected list does not replace the full bibliography.
 - Biography, research experience, awards, and other background: the corresponding Markdown files in `_pages/includes/`.
-- The four newest project pages use `_layouts/research-project.html`; the existing project hub and earlier project pages remain in `renlab-endoscopic-projects/`.
+- The project hub at `renlab-endoscopic-projects/index.html` and the EndoVLA-OOV, EBV-CAN, and EndoRSI pages share `_layouts/endoscopy.html`, `renlab-endoscopic-projects/projects.css`, and `renlab-endoscopic-projects/projects.js`. Project order, filters, and detailed content live in `_data/endoscopy.json`; paper metadata and authors come from `_data/selected_publications.json`. The three detail pages use `_layouts/endoscopy-project.html`. MPRF uses `_layouts/research-project.html`, and the earlier project pages remain in `renlab-endoscopic-projects/`.
 
 Research figures in `assets/research/` come from the public arXiv v1 pages for [EBV-CAN](https://arxiv.org/html/2610.30786v1), [MPRF](https://arxiv.org/html/2610.31028v1), [EndoVLA-OOV](https://arxiv.org/html/2610.24747v1), and [EndoRSI](https://arxiv.org/html/2610.13376v1). Short previews are compressed excerpts of the author's supplied demonstration videos; full videos are linked separately.
 

@@ -1,0 +1,194 @@
+{
+  "projects": [
+    {
+      "id": "endovla-oov",
+      "name": "EndoVLA-OOV",
+      "category": "language",
+      "theme": "mint",
+      "topic": "Language & vision",
+      "tagline": "Find what lies beyond the view.",
+      "cover": "/assets/research/endovla-oov.png",
+      "label": "New · 2026"
+    },
+    {
+      "id": "ebv-can",
+      "name": "EBV-CAN",
+      "category": "navigation",
+      "theme": "blue",
+      "topic": "Contact-aided navigation",
+      "tagline": "A global view. A grounded path.",
+      "cover": "/assets/research/ebv-can.png",
+      "label": "New · 2026"
+    },
+    {
+      "id": "endorsi",
+      "name": "EndoRSI",
+      "category": "improvement",
+      "theme": "sand",
+      "topic": "Recursive improvement",
+      "tagline": "Let physical evidence guide the next policy.",
+      "cover": "/assets/research/endorsi.png",
+      "label": "New · 2026"
+    },
+    {
+      "id": "endolift",
+      "name": "EndoLIFT",
+      "category": "language",
+      "theme": "sand",
+      "topic": "Language & control",
+      "tagline": "The same view. A different intention.",
+      "cover": "/assets/research/endolift-poster.jpg",
+      "label": "Preprint · 2026"
+    },
+    {
+      "id": "endovla",
+      "name": "EndoVLA",
+      "category": "language",
+      "theme": "mint",
+      "topic": "Vision-language-action",
+      "tagline": "From an instruction to precise tracking.",
+      "cover": "/assets/research/endovla-poster.jpg",
+      "label": "CoRL 2025 · Spotlight"
+    },
+    {
+      "id": "can",
+      "name": "CAN",
+      "category": "navigation",
+      "theme": "blue",
+      "topic": "Reinforcement learning",
+      "tagline": "Turning contact into a way forward.",
+      "cover": "/assets/research/can-poster.jpg",
+      "label": "ROBIO 2025 · Best Paper"
+    }
+  ],
+  "details": {
+    "endovla-oov": {
+      "theme": "mint",
+      "topic": "Language-conditioned target acquisition",
+      "lead": "Finding a target starts before it enters the frame.",
+      "overview": "An instruction identifies the region to revisit. Initial, intermediate and current images help the policy search through partial observations, producing continuous commands for the two distal bending axes.",
+      "stats": [
+        {
+          "value": "1,050",
+          "label": "demonstration episodes"
+        },
+        {
+          "value": "6",
+          "label": "tasks in the dataset"
+        },
+        {
+          "value": "93.3%",
+          "label": "target acquisition · 28/30"
+        }
+      ],
+      "result_note": "Acquisition result: full-data policy on a second robotic embodiment in an unseen ex-vivo environment. Acquisition and precise centering are evaluated separately.",
+      "steps": [
+        {
+          "title": "Describe the target",
+          "text": "Language specifies appearance and an anatomical region."
+        },
+        {
+          "title": "Use visual context",
+          "text": "Earlier and current observations guide search beyond the present view."
+        },
+        {
+          "title": "Act continuously",
+          "text": "The adapted policy predicts chunks of two-axis bending commands."
+        }
+      ],
+      "method_figure": "/assets/research/endovla-oov-method.png",
+      "method_caption": "Temporal visual context, robot state and the continuous action interface. Figure 2 of the preprint.",
+      "figure_caption": "The scan-then-revisit task: translate a target description into endoscopic camera motion. Figure 1 of the preprint.",
+      "demo_caption": "Full demonstration of language-conditioned target acquisition and tracking.",
+      "arxiv": "2610.24747",
+      "citation_key": "ng2026endovlaoov",
+      "bibtex": "@misc{ng2026endovlaoov,\n  title = {EndoVLA-OOV: Language-Conditioned Out-of-View Target Acquisition in Robotic Endoscopy},\n  author = {Chi Kit Ng and Yidong Zhang and Tianchun Wu and Zhiqing Tang and Hanlin Zhao and Siu Hing Lui and Tao Yang and Jingsong Lin and Huxin Gao and Yeung Trevor and Raymond Tang and Hongliang Ren},\n  year = {2026},\n  eprint = {2610.24747},\n  archivePrefix = {arXiv},\n  primaryClass = {cs.RO},\n  url = {https://arxiv.org/abs/2610.24747}\n}"
+    },
+    "ebv-can": {
+      "theme": "blue",
+      "topic": "Vision-language grounding",
+      "lead": "Navigate locally. Keep the global goal in sight.",
+      "overview": "One initial bird’s-eye image provides a fixed spatial reference. Endoscopic observations and motor state update three grounded queries—tip, waypoint and target—to guide bending and insertion through environmental contact.",
+      "stats": [
+        {
+          "value": "517",
+          "label": "demonstrations in VLCA"
+        },
+        {
+          "value": "1,920",
+          "label": "physical trials · eight policies"
+        },
+        {
+          "value": "76.25%",
+          "label": "EBV-CAN success · 183/240"
+        }
+      ],
+      "result_note": "Physical success uses automatic blue-area scoring on the planar contact-aided navigation platform.",
+      "steps": [
+        {
+          "title": "Remember the scene",
+          "text": "Cache the initial bird’s-eye image as a shared spatial reference."
+        },
+        {
+          "title": "Ground the instruction",
+          "text": "Estimate the tip, next waypoint and requested target."
+        },
+        {
+          "title": "Navigate with contact",
+          "text": "Translate grounded representations into bending and insertion commands."
+        }
+      ],
+      "method_figure": "/assets/research/ebv-can-method.png",
+      "method_caption": "Cached global features meet evolving local observations and semantic queries. Figure 4 of the preprint.",
+      "figure_caption": "The physical platform, camera views and language-linked dataset. Figure 2 of the preprint.",
+      "result_figure": "/assets/research/ebv-can-experiments.png",
+      "result_caption": "Selected successful multi-guide and target-conditioned executions. Figure 9 of the preprint.",
+      "arxiv": "2610.30786",
+      "citation_key": "ng2026ebvcan",
+      "bibtex": "@misc{ng2026ebvcan,\n  title = {EBV-CAN: Vision–Language Grounding for Contact-Aided Endoscope Navigation},\n  author = {Chi Kit Ng and Shuchang Liu and Jinsong Lin and Yidong Zhang and Xizi Wang and Ho Yin Chim and Hongliang Ren},\n  year = {2026},\n  eprint = {2610.30786},\n  archivePrefix = {arXiv},\n  primaryClass = {cs.RO},\n  url = {https://arxiv.org/abs/2610.30786}\n}"
+    },
+    "endorsi": {
+      "theme": "sand",
+      "topic": "Physical-evidence-driven policy research",
+      "lead": "Every experiment informs what to try next.",
+      "overview": "A coding agent analyses experiments and revises candidate policies. Human-authorised trials run in a separate safety-constrained runtime, and physical outcomes feed back into the next research cycle.",
+      "stats": [
+        {
+          "value": "2 → 17",
+          "label": "insertion successes out of 21"
+        },
+        {
+          "value": "4",
+          "label": "policy generations"
+        },
+        {
+          "value": "6",
+          "label": "independent ex-vivo specimens"
+        }
+      ],
+      "result_note": "Insertion improves from 2/21 in generation 1 to 17/21 in generation 4. The final frozen policy is evaluated separately for transfer.",
+      "steps": [
+        {
+          "title": "Propose & implement",
+          "text": "The agent inspects evidence and develops a candidate policy."
+        },
+        {
+          "title": "Test under human control",
+          "text": "An isolated runtime executes the authorised experiment."
+        },
+        {
+          "title": "Learn from outcomes",
+          "text": "Failures and feedback shape the next policy revision."
+        }
+      ],
+      "method_figure": "/assets/research/endorsi-method.png",
+      "method_caption": "Research decisions, execution boundaries and the experimental progression. Figure 2 of the preprint.",
+      "figure_caption": "The EndoRSI research loop and its embedded EndoForge coding agent. Figure 1 of the preprint.",
+      "result_figure": "/assets/research/endorsi-results.png",
+      "result_caption": "Policy improvement informed by physical outcomes across generations. Figure 5 of the preprint.",
+      "arxiv": "2610.13376",
+      "citation_key": "ng2026endorsi",
+      "bibtex": "@misc{ng2026endorsi,\n  title = {EndoRSI: Physical-Evidence-Driven Recursive Improvement of Endoscopic Robot Policies},\n  author = {Chi Kit Ng and Yidong Zhang and Tianchun Wu and Siu Hing Lui and Hanlin Zhao and Huxin Gao and Hongliang Ren},\n  year = {2026},\n  eprint = {2610.13376},\n  archivePrefix = {arXiv},\n  primaryClass = {cs.RO},\n  url = {https://arxiv.org/abs/2610.13376}\n}"
+    }
+  }
+}
