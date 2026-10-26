@@ -1,0 +1,18 @@
+---
+layout: home
+---
+{% assign paper = site.data.selected_publications | where: 'id', page.publication | first %}
+<article class="research-project">
+  <a class="back-link" href="/#publications">← Selected publications</a>
+  <header class="research-project-header">
+    <p class="eyebrow">{{ paper.venue }} {{ paper.year }} · Robotic endoscopy</p>
+    <h1>{{ paper.title }}</h1>
+    <p class="project-authors">{{ paper.authors }}</p>
+    <p class="author-key"><sup>*</sup> Equal contribution · <sup>†</sup> Corresponding author</p>
+    <div class="project-actions"><a class="button-link" href="{{ paper.paper }}" target="_blank" rel="noopener noreferrer">Read the paper ↗</a>{% if paper.video %}<a class="button-link button-secondary" href="#demonstration">Watch the demonstration ↓</a>{% endif %}</div>
+  </header>
+  <figure class="project-figure"><a href="{{ paper.figure }}" data-figure><img src="{{ paper.figure }}" alt="{{ paper.alt | escape }}"></a><figcaption>{{ paper.alt }}</figcaption></figure>
+  <section class="project-overview"><h2>Overview</h2><p>{{ paper.overview }}</p></section>
+  {% if paper.video %}<section class="project-demo" id="demonstration"><h2>Demonstration</h2><video controls playsinline preload="metadata" poster="{{ paper.poster }}" aria-label="{{ paper.short }} full demonstration"><source src="{{ paper.video }}" type="video/mp4"><a href="{{ paper.video }}">Open demonstration video</a></video></section>{% endif %}
+  <p class="project-source">Figures from the <a href="{{ paper.paper }}" target="_blank" rel="noopener noreferrer">public preprint</a>. See the paper for methodology, experiments and limitations.</p>
+</article>

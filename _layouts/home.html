@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.homepage %}Chi Kit Ng · Robotic Endoscopy{% else %}{{ page.title | escape }} · Chi Kit Ng{% endif %}</title>
+  <meta name="description" content="Chi Kit Ng (Justin), PhD student and HKPFS Awardee at CUHK. Research in robotic endoscopy, vision-language-action models and embodied intelligence.">
+  <meta name="google-site-verification" content="{{ site.google_site_verification }}">
+  <meta name="msvalidate.01" content="{{ site.bing_site_verification }}">
+  <link rel="canonical" href="https://ngchikit.github.io{{ page.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page.homepage %}Chi Kit Ng · Robotic Endoscopy{% else %}{{ page.title | escape }}{% endif %}">
+  <meta property="og:image" content="https://ngchikit.github.io/images/chikit_0.jpg">
+  <meta name="theme-color" content="#f8fafc">
+  <link rel="icon" href="/images/32_32.png" type="image/png">
+  <link rel="stylesheet" href="/assets/css/home.css?v=20261027">
+  <script defer src="/assets/js/home.js?v=20261027"></script>
+</head>
+<body class="academic-home{% unless page.homepage %} project-detail{% endunless %}">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="/" aria-label="Chi Kit Ng homepage">CK<span>Ng.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="/#about-me">About</a><a href="/#news">News</a><a href="/#publications">Research</a><a href="/#research-experience">Experience</a><a href="mailto:{{ site.author.email }}">Contact ↗</a>
+      </nav>
+    </div>
+  </header>
+  <main class="site-main" id="main-content">{{ content }}</main>
+  <footer class="site-footer">
+    {% if page.homepage %}
+    <section class="pageviews" aria-labelledby="pageviews-title" data-pageviews>
+      <div class="pageviews-heading"><span class="eyebrow">Thanks for stopping by</span><h2 id="pageviews-title">Page views</h2><p id="pageviews-status" role="status">Counting visits since 27 October 2026.</p></div>
+      <div class="view-stat"><strong id="busuanzi_page_pv">—</strong><span>Total page views</span></div>
+      <div class="view-stat"><strong id="busuanzi_today_pv">—</strong><span>Today</span></div>
+      <p class="pageviews-note">Automatically updated · daily count resets at midnight.<br>Powered by <a href="https://www.busuanzi.cc/" target="_blank" rel="noopener noreferrer">Busuanzi</a>.</p>
+      <noscript><p>Enable JavaScript to display live view counts.</p></noscript>
+    </section>
+    {% endif %}
+    <div class="footer-bottom"><span>© {{ site.time | date: '%Y' }} Chi Kit Ng · The Chinese University of Hong Kong</span><a href="#main-content">Back to top ↑</a></div>
+  </footer>
+  <dialog class="figure-dialog" aria-labelledby="figure-caption"><button type="button" class="dialog-close" aria-label="Close figure">×</button><img alt=""><p id="figure-caption"></p></dialog>
+</body>
+</html>

@@ -9,6 +9,8 @@
 title                    : "Chikit NG"
 description              : "PhD student at CUHK"
 repository               : "ngchikit/ngchikit.github.io"
+url                      : "https://ngchikit.github.io"
+baseurl                  : ""
 google_scholar_stats_use_cdn : true
 
 # google analytics

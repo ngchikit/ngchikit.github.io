@@ -23,6 +23,18 @@ Some examples:
 - [Demo Page](https://rayeren.github.io/acad-homepage.github.io/)
 - [Personal Homepage of the author](https://rayeren.github.io/)
 
+## Maintaining Chi Kit Ng's homepage
+
+- Homepage layout and styling: `_pages/about.md`, `_layouts/home.html`, and `assets/css/home.css`.
+- Selected publications: `_data/selected_publications.json`. Each entry supplies the paper, project page, authors, figure, and optional demonstration video.
+- Full bibliography and news: `_pages/includes/pub.md` and `_pages/includes/news.md`. The selected list does not replace the full bibliography.
+- Biography, research experience, awards, and other background: the corresponding Markdown files in `_pages/includes/`.
+- The four newest project pages use `_layouts/research-project.html`; the existing project hub and earlier project pages remain in `renlab-endoscopic-projects/`.
+
+Research figures in `assets/research/` come from the public arXiv v1 pages for [EBV-CAN](https://arxiv.org/html/2610.30786v1), [MPRF](https://arxiv.org/html/2610.31028v1), [EndoVLA-OOV](https://arxiv.org/html/2610.24747v1), and [EndoRSI](https://arxiv.org/html/2610.13376v1). Short previews are compressed excerpts of the author's supplied demonstration videos; full videos are linked separately.
+
+The homepage uses the free, no-registration [Busuanzi counter](https://www.busuanzi.cc/doc.php) for total page views and today's views. Counting starts on 27 October 2026, with the daily count reset by the service. `assets/js/home.js` loads the counter only on the published domain, so local previews do not add visits. A service outage shows an unavailable message rather than an invented count. No scheduled GitHub workflow or account secret is required.
+
 ## Key Features
 - **Automatically update google scholar citations**: using the google scholar crawler and github action, this REPO can update the author citations and publication citations automatically.
 - **Support Google analytics**: you can trace the traffics of your homepage by easy configuration.

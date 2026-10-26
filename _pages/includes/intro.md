@@ -7,16 +7,3 @@ I serve as a **postgraduate student representative to the Department Board of El
 I graduated from [CUHK EE](https://www.ee.cuhk.edu.hk/en-gb/news-events/news/2024/1240-ee-student-supervised-by-prof-ren-hongliang-won-the-creativity-award) and [Pui Ching Middle School](https://www.puiching.edu.hk/en).
 
 Open to internships and work opportunities (base: HK/USA; prefer a healthy work-life balance).
-
----
-
-## Previous research experiences
-
-#### [Northwestern University, AIML Lab](https://pingguo.mech.northwestern.edu), Supervised by **Prof. Ping Guo**
-- Optical Meta-grating for Snapshot Multi-spectral Imaging, (ASPE 2025, Oral)
-
-#### [CUHK EE Image Processing Lab](https://www.ee.cuhk.edu.hk/~tblu/monsite/phps/), supervised by **Prof. Thierry Blu**
-
-
-#### [CUHK AIoT Lab](https://aiot.ie.cuhk.edu.hk/), supervised by **Prof. Guoliang Xing and Prof. Xiaomin Ouyang**
-
