@@ -13,8 +13,8 @@
   <meta property="og:image" content="https://ngchikit.github.io/images/chikit_0.jpg">
   <meta name="theme-color" content="#f8fafc">
   <link rel="icon" href="/images/32_32.png" type="image/png">
-  <link rel="stylesheet" href="/assets/css/home.css?v=20261027">
-  <script defer src="/assets/js/home.js?v=20261027"></script>
+  <link rel="stylesheet" href="/assets/css/home.css?v=20261027-map">
+  <script defer src="/assets/js/home.js?v=20261027-map"></script>
 </head>
 <body class="academic-home{% unless page.homepage %} project-detail{% endunless %}">
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -33,8 +33,23 @@
       <div class="pageviews-heading"><span class="eyebrow">Thanks for stopping by</span><h2 id="pageviews-title">Page views</h2><p id="pageviews-status" role="status">Counting visits since 27 October 2026.</p></div>
       <div class="view-stat"><strong id="busuanzi_page_pv">—</strong><span>Total page views</span></div>
       <div class="view-stat"><strong id="busuanzi_today_pv">—</strong><span>Today</span></div>
-      <p class="pageviews-note">Automatically updated · daily count resets at midnight.<br>Powered by <a href="https://www.busuanzi.cc/" target="_blank" rel="noopener noreferrer">Busuanzi</a>.</p>
-      <noscript><p>Enable JavaScript to display live view counts.</p></noscript>
+      <div class="visitor-map" id="visitor-map" data-visitor-map>
+        <div class="visitor-map-copy">
+          <span class="eyebrow">A global community</span>
+          <h3>Visitors around<br> the world.</h3>
+          <p>Discover the countries and regions represented by visitors to this homepage.</p>
+          <a class="visitor-map-details" href="https://info.flagcounter.com/zEpf" target="_blank" rel="noopener noreferrer">View country statistics <span aria-hidden="true">↗</span></a>
+          <p class="visitor-map-privacy">Approximate locations based on visitors’ networks.</p>
+        </div>
+        <figure class="visitor-map-figure">
+          <a class="visitor-map-image-link" href="https://info.flagcounter.com/zEpf" target="_blank" rel="noopener noreferrer" aria-label="Open visitor country and region statistics on Flag Counter">
+            <img data-visitor-map-image src="/assets/images/visitor-map-preview.png" data-live-src="https://s05.flagcounter.com/map/zEpf/size_l/txt_405265/border_FFFFFF/pageviews_0/viewers_Around+the+world/flags_0/" width="800" height="375" alt="World map awaiting visitor locations" decoding="async" referrerpolicy="strict-origin-when-cross-origin">
+          </a>
+          <figcaption id="visitor-map-status" role="status">Visitor locations appear here when live statistics are available.</figcaption>
+        </figure>
+      </div>
+      <p class="pageviews-note">Automatically updated · daily count resets at midnight.<br>View counts by <a href="https://www.busuanzi.cc/" target="_blank" rel="noopener noreferrer">Busuanzi</a> · Visitor map by <a href="https://flagcounter.com/" target="_blank" rel="noopener noreferrer">Flag Counter</a>.</p>
+      <noscript><p>Enable JavaScript to display live view counts and visitor locations.</p></noscript>
     </section>
     {% endif %}
     <div class="footer-bottom"><span>© {{ site.time | date: '%Y' }} Chi Kit Ng · The Chinese University of Hong Kong</span><a href="#main-content">Back to top ↑</a></div>
