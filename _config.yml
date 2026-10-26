@@ -33,6 +33,7 @@ author:
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=G9cJp_MAAAAJ"
   email            : "chikitng@link.cuhk.edu.hk"
+  email_encoded    : "Y2hpa2l0bmdAbGluay5jdWhrLmVkdS5oaw==" # Project inquiry contact, decoded on activation.
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

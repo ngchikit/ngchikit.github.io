@@ -1,0 +1,21 @@
+.contact-dialog { box-sizing:border-box; width:min(460px,calc(100vw - 32px)); max-height:calc(100dvh - 32px); overflow:auto; padding:35px 30px 22px; border:1px solid #e3e9ef; border-radius:16px; background:#fff; color:#172a3b; box-shadow:0 24px 90px #142b4533; font:14px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; }
+.contact-dialog::backdrop { background:rgba(14,29,45,.58); backdrop-filter:blur(4px); }
+.contact-dialog .contact-close { position:absolute; top:9px; right:12px; display:grid; place-items:center; width:36px; height:36px; padding:0; border:0; border-radius:50%; background:transparent; color:#718092; font:26px/1 Arial,sans-serif; cursor:pointer; }
+.contact-dialog .contact-close:hover { background:#f5f8fb; color:#172a3b; }
+.contact-dialog .contact-kicker { margin:0 0 12px; color:#245db5; font-size:10px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; }
+.contact-dialog h2 { margin:0 0 12px; color:#172a3b; font-size:30px; line-height:1.2; letter-spacing:-.04em; }
+.contact-dialog #contact-description { margin:0 0 24px; color:#718092; font-size:13px; }
+.contact-dialog .contact-label { display:block; margin:0 0 8px; color:#405265; font-size:11px; font-weight:600; }
+.contact-dialog .contact-address { box-sizing:border-box; display:block; width:100%; min-width:0; height:46px; margin:0; padding:10px 12px; border:1px solid #dbe4ed; border-radius:7px; background:#f5f8fb; color:#172a3b; font:14px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace; user-select:text; }
+.contact-dialog .contact-actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:17px; }
+.contact-dialog .contact-compose,.contact-dialog .contact-copy { display:inline-flex; align-items:center; justify-content:center; min-height:43px; box-sizing:border-box; padding:10px 14px; border:1px solid #172a3b; border-radius:6px; background:#172a3b; color:#fff; font:600 12px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; text-decoration:none; cursor:pointer; }
+.contact-dialog .contact-copy { background:#fff; border-color:#dbe4ed; color:#405265; }
+.contact-dialog .contact-compose:hover { background:#2c4661; }
+.contact-dialog .contact-copy:hover { background:#f5f8fb; }
+.contact-dialog .contact-status { min-height:20px; margin:10px 0 0; color:#718092; font-size:11px; }
+.contact-dialog :focus-visible { outline:3px solid #80a9e5; outline-offset:3px; }
+@media (max-width:380px) {
+ .contact-dialog { padding:32px 20px 18px; }
+ .contact-dialog .contact-address { font-size:12px; }
+ .contact-dialog .contact-actions { display:grid; grid-template-columns:1fr; }
+}
