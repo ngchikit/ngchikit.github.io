@@ -15,10 +15,17 @@ redirect_from:
     {% include contact-link.html class="profile-email" id="contact" label="Email me ↗" %}
     <div class="profile-links"><a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Scholar ↗</a><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div>
   </aside>
-  <div class="hero-copy">
+  <div class="profile-heading">
     <p class="eyebrow">Robotic endoscopy · Embodied intelligence</p>
     <h1 id="profile-name">Chi Kit Ng <span>Justin</span></h1>
     <p class="profile-role">PhD student, Electronic Engineering <span>·</span> HKPFS Awardee</p>
+  </div>
+  <a class="profile-project-entry" href="/renlab-endoscopic-projects/" aria-label="Explore the Endoscopic Autonomy project website">
+    <img class="project-entry-icon" src="/assets/images/project-entry.svg" width="96" height="96" alt="">
+    <span class="project-entry-title">Project Website <span aria-hidden="true">↗</span></span>
+    <span class="project-entry-caption">Endoscopic Autonomy</span>
+  </a>
+  <div class="hero-copy">
     <h2 class="about-label" id="about-me">About me</h2>
     <div class="biography">
       {% capture intro %}{% include_relative includes/intro.md %}{% endcapture %}
