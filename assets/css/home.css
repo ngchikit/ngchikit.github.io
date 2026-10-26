@@ -41,7 +41,7 @@ sup { font-size:.72em; line-height:0; }
 .biography { color:var(--body); font-size:15px; line-height:1.8; }
 .biography p { margin-bottom:16px; }
 .biography strong { color:var(--ink); font-weight:650; }
-.biography p:last-child { margin:21px 0 0; padding:12px 16px; border-left:3px solid #87b6a8; border-radius:0 7px 7px 0; background:#f2f8f5; color:#355e52; font-size:13px; }
+.biography p:last-child { margin:21px 0 0; padding-top:16px; border-top:1px solid var(--line); color:var(--body); font-size:14px; }
 .home-section { padding:44px 0; border-top:1px solid var(--line); }
 .section-heading { display:flex; justify-content:space-between; align-items:flex-end; gap:24px; margin-bottom:22px; }
 .section-heading h2 { margin:0; }
@@ -177,7 +177,7 @@ code { padding:2px 5px; border-radius:3px; background:#edf2f7; font-size:.85em; 
  .profile-role { font-size:12px; margin-bottom:24px; }
  .eyebrow { font-size:9px; }
  .biography { font-size:14px; }
- .biography p:last-child { font-size:12px; }
+ .biography p:last-child { font-size:13px; }
  .home-section { padding:32px 0; }
  h2 { font-size:26px; }
  .section-heading { gap:14px; }
