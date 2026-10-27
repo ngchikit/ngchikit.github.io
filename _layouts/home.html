@@ -13,15 +13,15 @@
   <meta property="og:image" content="https://ngchikit.github.io/images/chikit_0.jpg">
   <meta name="theme-color" content="#f8fafc">
   <link rel="icon" href="/images/32_32.png" type="image/png">
-  <link rel="stylesheet" href="/assets/css/home.css?v=20261027-project-entry">
-  <script defer src="/assets/js/home.js?v=20261027-map"></script>
+  <link rel="stylesheet" href="/assets/css/home.css?v=20261028-compact">
+  <script defer src="/assets/js/home.js?v=20261028-stats"></script>
   {% include contact-head.html %}
 </head>
 <body class="academic-home{% unless page.homepage %} project-detail{% endunless %}">
   <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="site-header">
     <div class="header-inner">
-      <a class="wordmark" href="/" aria-label="Chi Kit Ng homepage">CK<span>Ng.</span></a>
+      <a class="wordmark" href="/" aria-label="Chi Kit Ng homepage">Chi Kit Ng</a>
       <nav aria-label="Main navigation">
         <a href="/#about-me">About</a><a href="/#news">News</a><a href="/#publications">Research</a><a href="/#research-experience">Experience</a>{% include contact-link.html label="Contact ↗" %}
       </nav>
@@ -30,27 +30,14 @@
   <main class="site-main" id="main-content">{{ content }}</main>
   <footer class="site-footer">
     {% if page.homepage %}
-    <section class="pageviews" aria-labelledby="pageviews-title" data-pageviews>
-      <div class="pageviews-heading"><span class="eyebrow">Thanks for stopping by</span><h2 id="pageviews-title">Page views</h2><p id="pageviews-status" role="status">Counting visits since 27 October 2026.</p></div>
-      <div class="view-stat"><strong id="busuanzi_page_pv">—</strong><span>Total page views</span></div>
-      <div class="view-stat"><strong id="busuanzi_today_pv">—</strong><span>Today</span></div>
-      <div class="visitor-map" id="visitor-map" data-visitor-map>
-        <div class="visitor-map-copy">
-          <span class="eyebrow">A global community</span>
-          <h3>Visitors around<br> the world.</h3>
-          <p>Discover the countries and regions represented by visitors to this homepage.</p>
-          <a class="visitor-map-details" href="https://info.flagcounter.com/zEpf" target="_blank" rel="noopener noreferrer">View country statistics <span aria-hidden="true">↗</span></a>
-          <p class="visitor-map-privacy">Approximate locations based on visitors’ networks.</p>
-        </div>
-        <figure class="visitor-map-figure">
-          <a class="visitor-map-image-link" href="https://info.flagcounter.com/zEpf" target="_blank" rel="noopener noreferrer" aria-label="Open visitor country and region statistics on Flag Counter">
-            <img data-visitor-map-image src="/assets/images/visitor-map-preview.png" data-live-src="https://s05.flagcounter.com/map/zEpf/size_l/txt_405265/border_FFFFFF/pageviews_0/viewers_Around+the+world/flags_0/" width="800" height="375" alt="World map awaiting visitor locations" decoding="async" referrerpolicy="strict-origin-when-cross-origin">
-          </a>
-          <figcaption id="visitor-map-status" role="status">Visitor locations appear here when live statistics are available.</figcaption>
-        </figure>
+    <section class="visitor-statistics" aria-labelledby="visitors-title" data-visitor-map data-widget-id="{{ site.visitor_map.widget_id | escape }}">
+      <h2 id="visitors-title">Visitors</h2>
+      <div class="visitor-map" id="visitor-map">
+        <p class="visitor-map-status" role="status">Loading visitor map…</p>
       </div>
-      <p class="pageviews-note">Automatically updated · daily count resets at midnight.<br>View counts by <a href="https://www.busuanzi.cc/" target="_blank" rel="noopener noreferrer">Busuanzi</a> · Visitor map by <a href="https://flagcounter.com/" target="_blank" rel="noopener noreferrer">Flag Counter</a>.</p>
-      <noscript><p>Enable JavaScript to display live view counts and visitor locations.</p></noscript>
+      <p class="visitor-statistics-links"><a href="{{ site.visitor_map.statistics_url | default: 'https://mapmyvisitors.com/' }}" target="_blank" rel="noopener noreferrer">Daily views &amp; visitor locations ↗</a></p>
+      <p class="visitor-privacy">MapMyVisitors · Approximate locations from IP addresses. <a href="https://mapmyvisitors.com/b/policy" target="_blank" rel="noopener noreferrer">Privacy</a></p>
+      <noscript><p>Enable JavaScript to display the visitor map and page views.</p></noscript>
     </section>
     {% endif %}
     <div class="footer-bottom"><span>© {{ site.time | date: '%Y' }} Chi Kit Ng · The Chinese University of Hong Kong</span><a href="#main-content">Back to top ↑</a></div>

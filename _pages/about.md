@@ -10,20 +10,18 @@ redirect_from:
 
 <section class="profile-hero" aria-labelledby="profile-name">
   <aside class="profile-portrait">
-    <img class="portrait" src="/{{ site.author.avatar }}" alt="Chi Kit Ng (Justin)" width="216" height="270" fetchpriority="high">
+    <img class="portrait" src="/{{ site.author.avatar }}" alt="Chi Kit Ng (Justin)" width="174" height="218" fetchpriority="high">
     <p class="profile-location"><span aria-hidden="true">●</span> Hong Kong · CUHK</p>
     {% include contact-link.html class="profile-email" id="contact" label="Email me ↗" %}
     <div class="profile-links"><a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Scholar ↗</a><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div>
   </aside>
   <div class="profile-heading">
-    <p class="eyebrow">Robotic endoscopy · Embodied intelligence</p>
     <h1 id="profile-name">Chi Kit Ng <span>Justin</span></h1>
     <p class="profile-role">PhD student, Electronic Engineering <span>·</span> HKPFS Awardee</p>
   </div>
   <a class="profile-project-entry" href="/renlab-endoscopic-projects/" aria-label="Explore the Endoscopic Autonomy project website">
-    <img class="project-entry-icon" src="/assets/images/project-entry.svg" width="96" height="96" alt="">
+    <img class="project-entry-icon" src="/assets/images/project-entry.svg" width="72" height="72" alt="">
     <span class="project-entry-title">Project Website <span aria-hidden="true">↗</span></span>
-    <span class="project-entry-caption">Endoscopic Autonomy</span>
   </a>
   <div class="hero-copy">
     <h2 class="about-label" id="about-me">About me</h2>
@@ -35,7 +33,7 @@ redirect_from:
 </section>
 
 <section class="home-section news-section" aria-labelledby="news">
-  <div class="section-heading"><div><p class="eyebrow">The latest</p><h2 id="news">News & updates</h2></div><span class="section-note">2026 — 2024</span></div>
+  <div class="section-heading"><h2 id="news">News</h2></div>
   <div id="news-list" class="news-list">
     {% capture news %}{% include_relative includes/news.md %}{% endcapture %}
     {% assign news_heading = news | strip | newline_to_br | split: '<br />' | first %}
@@ -45,8 +43,7 @@ redirect_from:
 </section>
 
 <section class="home-section publications-section" aria-labelledby="publications">
-  <div class="section-heading"><div><p class="eyebrow">Research in action</p><h2 id="publications">Selected publications</h2></div><a class="section-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a></div>
-  <p class="section-intro">Learning to see, act and improve in robotic endoscopy.</p>
+  <div class="section-heading"><h2 id="publications">Selected publications</h2><a class="section-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a></div>
   <p class="author-key"><sup>*</sup> Equal contribution <span>·</span> <sup>†</sup> Corresponding author</p>
   <div class="publication-list">
     {% for paper in site.data.selected_publications %}
@@ -54,10 +51,8 @@ redirect_from:
       <div class="publication-visual">
         {% if paper.preview %}
         <video controls muted loop playsinline preload="none" poster="{{ paper.poster }}" data-preview="{{ paper.preview }}" aria-label="{{ paper.short | escape }} demonstration preview">Your browser does not support embedded video. <a href="{{ paper.video }}">Watch the demonstration</a>.</video>
-        <span class="media-caption">Demonstration · 12-second preview</span>
         {% else %}
         <a class="figure-link" href="{{ paper.figure }}" data-figure aria-label="Enlarge {{ paper.short | escape }} figure"><img src="{{ paper.figure }}" alt="{{ paper.alt | escape }}" loading="lazy" decoding="async" width="320" height="208"><span class="figure-expand" aria-hidden="true">↗</span></a>
-        <span class="media-caption">{{ paper.short }} · Research overview</span>
         {% endif %}
       </div>
       <div class="publication-copy">
@@ -80,7 +75,7 @@ redirect_from:
   </details>
 </section>
 
-<section class="project-invitation" id="projects" aria-labelledby="projects-title"><div><p class="eyebrow">From learning to the real world</p><h2 id="projects-title">Explore the endoscopy projects</h2><p>Demonstrations, full results and open student research opportunities.</p></div><a class="button-link" href="/renlab-endoscopic-projects/">Visit project website ↗</a></section>
+<p class="project-invitation" id="projects">More demonstrations and student research opportunities: <a href="/renlab-endoscopic-projects/">Endoscopic Autonomy project website ↗</a></p>
 
 <section class="home-section experience-section">
   {% capture experience %}{% include_relative includes/research-experience.md %}{% endcapture %}
