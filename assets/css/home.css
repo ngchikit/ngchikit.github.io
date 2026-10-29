@@ -63,7 +63,7 @@ sup { font-size:.72em; line-height:0; }
 .news-list li { margin:0; padding:4px 0; color:var(--body); font-size:14px; line-height:1.55; }
 .news-list.is-enhanced li { display:grid; grid-template-columns:76px minmax(0,1fr); gap:12px; }
 .news-list em { color:var(--muted); font:12px/1.9 ui-monospace,SFMono-Regular,Consolas,monospace; }
-.news-list.is-collapsed li:nth-child(n+5) { display:none; }
+.news-list.is-collapsed li:nth-child(n+6) { display:none; }
 .text-button { border:0; padding:0; background:none; color:var(--blue); font-size:12px; font-weight:650; }
 .text-button:hover { text-decoration:underline; }
 .news-toggle { margin-top:8px; }

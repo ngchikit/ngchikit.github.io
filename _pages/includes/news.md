@@ -1,4 +1,5 @@
 # 🔥 News {#news}
+- *10.2026*: Two papers accepted to CoRL 2026 workshops — [Do Robots Need World Models?](https://do-robots-need-world-models.github.io/) and [Oops, I Erred](https://workshop.oopsie-data.com/). Congratulations to CUHK Year 3 undergraduates Tianchun and Lintao!
 - *10.2026*: EBV-CAN preprint released — [EBV-CAN: Vision–Language Grounding for Contact-Aided Endoscope Navigation](https://arxiv.org/abs/2610.30786).
 - *10.2026*: MPRF preprint released — [Multimodal Progress-Residual Fusion for Anticipating Navigation Retreat in Robotic Flexible Endoscopy](https://arxiv.org/abs/2610.31028).
 - *10.2026*: EndoVLA-OOV preprint released — [EndoVLA-OOV: Language-Conditioned Out-of-View Target Acquisition in Robotic Endoscopy](https://arxiv.org/abs/2610.24747).

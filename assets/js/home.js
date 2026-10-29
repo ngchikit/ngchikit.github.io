@@ -16,7 +16,7 @@
       item.append(date, copy);
     });
     news.classList.add('is-enhanced', 'is-collapsed');
-    newsToggle.hidden = news.querySelectorAll('li').length <= 4;
+    newsToggle.hidden = news.querySelectorAll('li').length <= 5;
     newsToggle.addEventListener('click', () => {
       const collapsed = news.classList.toggle('is-collapsed');
       newsToggle.setAttribute('aria-expanded', String(!collapsed));
