@@ -14,6 +14,7 @@
 **Mentees**  
 - **Yuqing Wei** · UG FYP → HKPFS
 - **Sean Kong Ko Lun** — [website](https://seancolin.faculty.bio/) · UG intern → PhD student, CityU
+- **Tianchun Wu** · UG FYP · CUHK Outstanding Student 2026
 
 ## 🗣️ Languages {#languages}
 - Chinese: Cantonese, Mandarin, Hakka  
