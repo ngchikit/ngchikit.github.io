@@ -4,7 +4,8 @@
 - **Sep 2017 – Jul 2020** — **Pui Ching Middle School**, Hong Kong
 
 ## 👨‍🔬 Services {#services}
-- **Reviewer:** MIR; CVPR; NeurIPS; CoRL; IROS; ICRA; RoboSoft; MICCAI
+- **Reviewer:** MIR; CVPR; NeurIPS; IROS; ICRA; RoboSoft; MICCAI; CoRL
+- **CoRL Outstanding Reviewer 2026** (99/2412)
 
 ## 👨‍🏫 Teaching {#teaching}
 **Teaching Assistantships**  
