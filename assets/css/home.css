@@ -67,6 +67,25 @@ sup { font-size:.72em; line-height:0; }
 .text-button { border:0; padding:0; background:none; color:var(--blue); font-size:12px; font-weight:650; }
 .text-button:hover { text-decoration:underline; }
 .news-toggle { margin-top:8px; }
+.activities { margin-top:16px; padding-top:16px; border-top:1px solid var(--line); }
+.activity-album { display:grid; grid-template-columns:minmax(0,1fr) 360px; gap:24px; align-items:center; }
+.activity-album + .activity-album { margin-top:18px; }
+.activity-copy h3 { margin:0 0 6px; font-size:16px; font-weight:600; }
+.activity-date { color:var(--muted); font:11px ui-monospace,SFMono-Regular,Consolas,monospace; }
+.activity-summary { max-width:480px; margin:5px 0 0; color:var(--body); font-size:13px; line-height:1.55; }
+.activity-summary strong { color:var(--ink); font-weight:600; }
+.activity-gallery { min-width:0; }
+.activity-rail { display:flex; gap:8px; overflow-x:auto; scroll-snap-type:x mandatory; overscroll-behavior-x:contain; scrollbar-width:thin; scrollbar-color:#c3cbd5 transparent; padding-bottom:5px; }
+.activity-photo { position:relative; flex:0 0 140px; height:96px; overflow:hidden; scroll-snap-align:start; border:1px solid var(--line); border-radius:4px; background:var(--wash); }
+.activity-photo img { width:100%; height:100%; object-fit:cover; object-position:center 30%; }
+.activity-photo:hover { border-color:var(--blue); }
+.activity-photo:focus-visible { outline-offset:-3px; }
+.activity-photo-label { position:absolute; left:5px; bottom:5px; padding:1px 5px; border-radius:2px; background:rgba(20,28,39,.8); color:#fff; font-size:10px; line-height:1.6; }
+.activity-tools { min-height:28px; display:flex; align-items:center; justify-content:space-between; gap:10px; margin-top:2px; color:var(--muted); font-size:11px; }
+.activity-controls { display:flex; gap:6px; }
+.activity-controls button { display:grid; place-items:center; width:32px; height:28px; padding:0; border:1px solid var(--line); border-radius:3px; background:#fff; color:var(--blue); font-size:16px; }
+.activity-controls button:hover:not(:disabled) { border-color:var(--blue); }
+.activity-controls button:disabled { color:#a5adb6; cursor:default; }
 .publication-list { margin-top:8px; }
 .publication { display:grid; grid-template-columns:252px minmax(0,1fr); gap:22px; padding:18px 0; border-bottom:1px solid var(--line); align-items:center; }
 .publication:last-child { border-bottom:0; padding-bottom:12px; }
@@ -139,6 +158,14 @@ code { padding:2px 5px; border-radius:3px; background:#edf2f7; font-size:.85em; 
 .figure-dialog::backdrop { background:rgba(14,29,45,.76); }
 .figure-dialog img { width:100%; max-height:72vh; object-fit:contain; }
 .figure-dialog p { margin:15px 0 0; color:var(--body); font-size:13px; }
+.figure-open { overflow:hidden; }
+.figure-dialog.has-gallery { width:clamp(280px,calc((90dvh - 150px) * var(--figure-aspect,1.5) + 48px),min(1200px,94vw)); max-height:92dvh; }
+.figure-dialog.has-gallery img { max-height:calc(90dvh - 150px); }
+.figure-navigation { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-top:14px; }
+.figure-navigation button { min-height:36px; padding:4px 10px; border:1px solid var(--line); border-radius:3px; background:#fff; color:var(--blue); font-size:13px; }
+.figure-navigation button:hover { border-color:var(--blue); }
+.figure-position { color:var(--muted); font-size:12px; font-variant-numeric:tabular-nums; }
+.figure-dialog.has-gallery p { margin-top:8px; }
 .dialog-close { position:absolute; top:5px; right:12px; width:38px; height:38px; border:0; background:transparent; color:var(--ink); font-size:30px; }
 .research-project { max-width:960px; margin:0 auto; padding:45px 0 50px; }
 .back-link { font-size:12px; }
@@ -193,6 +220,10 @@ code { padding:2px 5px; border-radius:3px; background:#edf2f7; font-size:.85em; 
  .news-list.is-enhanced li { grid-template-columns:64px minmax(0,1fr); gap:12px; }
  .news-list li { font-size:13px; }
  .news-list em { font-size:10px; }
+ .activity-album { grid-template-columns:1fr; gap:12px; }
+ .activity-copy h3 { display:inline; margin-right:10px; }
+ .activity-summary { margin-top:5px; }
+ .figure-dialog { padding-left:14px; padding-right:14px; }
  .publication { grid-template-columns:1fr; gap:12px; padding:16px 0; }
  .publication-visual video,.figure-link { height:auto; aspect-ratio:1.55; max-height:220px; }
  .publication h3 { font-size:16px; }

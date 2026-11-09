@@ -1,0 +1,35 @@
+[
+  {
+    "id": "corl-2026",
+    "title": "CoRL 2026",
+    "date": "11.2026",
+    "datetime": "2026-11",
+    "summary": "Our team presents a demo and visits Stanford.",
+    "photos": [
+      {
+        "src": "/assets/activities/corl-2026/workshops.jpg",
+        "label": "Workshops",
+        "alt": "CoRL 2026 poster announcing our team's two workshop papers",
+        "caption": "CoRL 2026 · Two workshop papers",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/assets/activities/corl-2026/demo.jpg",
+        "label": "Demo",
+        "alt": "CoRL 2026 poster for our EndoNav robotic endoscopy demonstration",
+        "caption": "CoRL 2026 · EndoNav demonstration",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "/assets/activities/corl-2026/stanford.jpg",
+        "label": "Stanford visit",
+        "alt": "Illustrated team portrait at the Stanford Robotics Center",
+        "caption": "Visit to the Stanford Robotics Center",
+        "width": 1086,
+        "height": 1255
+      }
+    ]
+  }
+]

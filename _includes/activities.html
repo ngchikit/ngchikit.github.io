@@ -1,0 +1,30 @@
+{% if site.data.activities.size > 0 %}
+<section class="activities" aria-labelledby="activities">
+  {% for activity in site.data.activities %}
+  <article class="activity-album" data-album aria-labelledby="activity-{{ activity.id }}-title">
+    <div class="activity-copy">
+      {% if forloop.first %}<h3 id="activities">Activities</h3>{% endif %}
+      <time class="activity-date" datetime="{{ activity.datetime }}">{{ activity.date }}</time>
+      <p class="activity-summary" id="activity-{{ activity.id }}-title"><strong>[{{ activity.title | escape }}]</strong> {{ activity.summary | escape }}</p>
+    </div>
+    <div class="activity-gallery">
+      <div class="activity-rail" id="activity-{{ activity.id }}-photos" tabindex="0" role="group" aria-label="{{ activity.title | escape }} photos. Scroll horizontally to browse.">
+        {% for photo in activity.photos %}
+        <a class="activity-photo" href="{{ photo.src }}" data-figure data-caption="{{ photo.caption | escape }}" aria-label="Enlarge photo {{ forloop.index }} of {{ activity.photos.size }}: {{ photo.label | escape }}">
+          <img src="{{ photo.src }}" alt="{{ photo.alt | escape }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="lazy" decoding="async">
+          <span class="activity-photo-label" aria-hidden="true">{{ photo.label | escape }}</span>
+        </a>
+        {% endfor %}
+      </div>
+      <div class="activity-tools">
+        <span>{{ activity.photos.size }} photos · click to enlarge</span>
+        <div class="activity-controls" hidden>
+          <button type="button" data-album-prev aria-label="Previous photos" aria-controls="activity-{{ activity.id }}-photos">←</button>
+          <button type="button" data-album-next aria-label="Next photos" aria-controls="activity-{{ activity.id }}-photos">→</button>
+        </div>
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+</section>
+{% endif %}

@@ -25,6 +25,35 @@
   }
 
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  document.querySelectorAll('[data-album]').forEach(album => {
+    const rail = album.querySelector('.activity-rail');
+    const controls = album.querySelector('.activity-controls');
+    const previous = album.querySelector('[data-album-prev]');
+    const next = album.querySelector('[data-album-next]');
+    const photos = [...rail.querySelectorAll('.activity-photo')];
+    const updateControls = () => {
+      const limit = rail.scrollWidth - rail.clientWidth;
+      controls.hidden = limit <= 1;
+      previous.disabled = rail.scrollLeft <= 1;
+      next.disabled = rail.scrollLeft >= limit - 1;
+    };
+    const scrollPhotos = direction => {
+      const step = photos.length > 1 ? photos[1].offsetLeft - photos[0].offsetLeft : rail.clientWidth;
+      rail.scrollBy({ left: direction * step, behavior: reducedMotion.matches ? 'auto' : 'smooth' });
+    };
+    previous.addEventListener('click', () => scrollPhotos(-1));
+    next.addEventListener('click', () => scrollPhotos(1));
+    rail.addEventListener('scroll', updateControls, { passive: true });
+    rail.addEventListener('keydown', event => {
+      if (event.target !== rail || !['ArrowLeft', 'ArrowRight'].includes(event.key)) return;
+      event.preventDefault();
+      scrollPhotos(event.key === 'ArrowRight' ? 1 : -1);
+    });
+    if ('ResizeObserver' in window) new ResizeObserver(updateControls).observe(rail);
+    else window.addEventListener('resize', updateControls);
+    updateControls();
+  });
+
   const previews = [...document.querySelectorAll('video[data-preview]')];
   const states = new WeakMap();
   const pauseAutomatically = video => {
@@ -68,20 +97,68 @@
 
   const dialog = document.querySelector('.figure-dialog');
   if (dialog && typeof dialog.showModal === 'function') {
+    const image = dialog.querySelector('img');
+    const caption = dialog.querySelector('#figure-caption');
+    const navigation = dialog.querySelector('.figure-navigation');
+    const position = dialog.querySelector('.figure-position');
+    let photos = [];
+    let current = 0;
+    let touchStart = null;
+    const showPhoto = index => {
+      current = (index + photos.length) % photos.length;
+      const link = photos[current];
+      const source = link.querySelector('img');
+      image.src = link.href;
+      image.alt = source.alt;
+      caption.textContent = link.dataset.caption || source.alt;
+      navigation.hidden = photos.length < 2;
+      position.textContent = `${current + 1} / ${photos.length}`;
+      dialog.classList.toggle('has-gallery', photos.length > 1);
+      const aspect = source.naturalWidth / source.naturalHeight || Number(source.getAttribute('width')) / Number(source.getAttribute('height')) || 1.5;
+      dialog.style.setProperty('--figure-aspect', aspect);
+    };
     document.querySelectorAll('[data-figure]').forEach(link => {
       link.addEventListener('click', event => {
         if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
         event.preventDefault();
-        const source = link.querySelector('img');
-        const image = dialog.querySelector('img');
-        image.src = link.href;
-        image.alt = source.alt;
-        dialog.querySelector('#figure-caption').textContent = source.alt;
+        const album = link.closest('[data-album]');
+        photos = album ? [...album.querySelectorAll('[data-figure]')] : [link];
+        showPhoto(photos.indexOf(link));
         dialog.showModal();
+        document.documentElement.classList.add('figure-open');
       });
     });
+    dialog.querySelector('.figure-previous').addEventListener('click', () => showPhoto(current - 1));
+    dialog.querySelector('.figure-next').addEventListener('click', () => showPhoto(current + 1));
+    dialog.addEventListener('keydown', event => {
+      if (photos.length < 2 || !['ArrowLeft', 'ArrowRight'].includes(event.key)) return;
+      event.preventDefault();
+      showPhoto(current + (event.key === 'ArrowRight' ? 1 : -1));
+    });
+    image.addEventListener('touchstart', event => {
+      touchStart = event.touches.length === 1 ? { x: event.touches[0].clientX, y: event.touches[0].clientY } : null;
+    }, { passive: true });
+    image.addEventListener('touchmove', event => {
+      if (event.touches.length !== 1) touchStart = null;
+    }, { passive: true });
+    image.addEventListener('touchend', event => {
+      if (touchStart && event.changedTouches.length && photos.length > 1) {
+        const dx = event.changedTouches[0].clientX - touchStart.x;
+        const dy = event.changedTouches[0].clientY - touchStart.y;
+        if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) showPhoto(current + (dx < 0 ? 1 : -1));
+      }
+      touchStart = null;
+    }, { passive: true });
+    image.addEventListener('touchcancel', () => { touchStart = null; }, { passive: true });
     dialog.querySelector('.dialog-close').addEventListener('click', () => dialog.close());
     dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
+    dialog.addEventListener('close', () => {
+      document.documentElement.classList.remove('figure-open');
+      touchStart = null;
+      image.removeAttribute('src');
+      image.alt = '';
+      caption.textContent = '';
+    });
   }
 
   const isPublishedHomepage = location.hostname === 'ngchikit.github.io' && (location.pathname === '/' || location.pathname === '/index.html');

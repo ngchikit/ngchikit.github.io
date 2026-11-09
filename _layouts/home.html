@@ -13,8 +13,8 @@
   <meta property="og:image" content="https://ngchikit.github.io/images/chikit_0.jpg">
   <meta name="theme-color" content="#f8fafc">
   <link rel="icon" href="/images/32_32.png" type="image/png">
-  <link rel="stylesheet" href="/assets/css/home.css?v=20261029-news">
-  <script defer src="/assets/js/home.js?v=20261029-news"></script>
+  <link rel="stylesheet" href="/assets/css/home.css?v=20261110-activities">
+  <script defer src="/assets/js/home.js?v=20261110-activities"></script>
   {% include contact-head.html %}
 </head>
 <body class="academic-home{% unless page.homepage %} project-detail{% endunless %}">
@@ -42,7 +42,16 @@
     {% endif %}
     <div class="footer-bottom"><span>© {{ site.time | date: '%Y' }} Chi Kit Ng · The Chinese University of Hong Kong</span><a href="#main-content">Back to top ↑</a></div>
   </footer>
-  <dialog class="figure-dialog" aria-labelledby="figure-caption"><button type="button" class="dialog-close" aria-label="Close figure">×</button><img alt=""><p id="figure-caption"></p></dialog>
+  <dialog class="figure-dialog" aria-labelledby="figure-caption">
+    <button type="button" class="dialog-close" aria-label="Close figure" autofocus>×</button>
+    <img alt="">
+    <div class="figure-navigation" hidden>
+      <button type="button" class="figure-previous" aria-label="Previous photo">← Previous</button>
+      <span class="figure-position" role="status" aria-live="polite" aria-atomic="true"></span>
+      <button type="button" class="figure-next" aria-label="Next photo">Next →</button>
+    </div>
+    <p id="figure-caption"></p>
+  </dialog>
   {% include contact-dialog.html %}
 </body>
 </html>

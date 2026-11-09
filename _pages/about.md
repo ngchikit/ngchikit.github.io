@@ -40,6 +40,7 @@ redirect_from:
     {{ news | remove_first: news_heading | markdownify }}
   </div>
   <button type="button" class="text-button news-toggle" aria-expanded="false" aria-controls="news-list" hidden>Show all updates ↓</button>
+  {% include activities.html %}
 </section>
 
 <section class="home-section publications-section" aria-labelledby="publications">
