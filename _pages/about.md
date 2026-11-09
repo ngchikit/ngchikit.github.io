@@ -10,7 +10,7 @@ redirect_from:
 
 <section class="profile-hero" aria-labelledby="profile-name">
   <aside class="profile-portrait">
-    <img class="portrait" src="/{{ site.author.avatar }}" alt="Chi Kit Ng (Justin)" width="174" height="218" fetchpriority="high">
+    <div class="portrait-frame"><img class="portrait" src="/{{ site.author.avatar }}" alt="Chi Kit Ng (Justin)" width="174" height="218" fetchpriority="high"></div>
     <p class="profile-location"><span aria-hidden="true">●</span> Hong Kong · CUHK</p>
     {% include contact-link.html class="profile-email" id="contact" label="Email me ↗" %}
     <div class="profile-links"><a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Scholar ↗</a><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div>
