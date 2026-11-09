@@ -1,5 +1,7 @@
 ## Research experience {#research-experience}
 
+Seeking my next visiting research opportunity. A six-month visit will be funded by a CUHK scholarship.
+
 #### [Northwestern University, AIML Lab](https://pingguo.mech.northwestern.edu), Supervised by **Prof. Ping Guo**
 - Optical Meta-grating for Snapshot Multi-spectral Imaging, (ASPE 2025, Oral)
 
