@@ -4,5 +4,4 @@ Hi! I’m **Chi Kit Ng (Justin)**, a PhD student and Hong Kong PhD Fellowship (H
 
 I graduated from [CUHK EE](https://www.ee.cuhk.edu.hk/en-gb/news-events/news/2024/1240-ee-student-supervised-by-prof-ren-hongliang-won-the-creativity-award) and [Pui Ching Middle School](https://www.puiching.edu.hk/en).
 
-Open to internships and work opportunities (base: HK/USA; prefer a healthy work-life balance).<br>
-What matters most to me is joining a team where I can grow and work with less internal friction, rather than the specific role itself.
+Open to internships and work opportunities (base: HK/USA; prefer a healthy work-life balance).
