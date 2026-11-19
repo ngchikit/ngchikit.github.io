@@ -1,9 +1,13 @@
 {% if site.data.activities.size > 0 %}
 <section class="activities" aria-labelledby="activities">
+  <div class="activities-heading">
+    <h3 id="activities">Activities</h3>
+    <span id="activities-scroll-hint">Scroll to browse ↓</span>
+  </div>
+  <div class="activity-feed" tabindex="0" role="region" aria-label="Activity albums" aria-describedby="activities-scroll-hint">
   {% for activity in site.data.activities %}
   <article class="activity-album" data-album aria-labelledby="activity-{{ activity.id }}-title">
     <div class="activity-copy">
-      {% if forloop.first %}<h3 id="activities">Activities</h3>{% endif %}
       {% if activity.date %}<time class="activity-date" datetime="{{ activity.datetime }}">{{ activity.date }}</time>{% endif %}
       <p class="activity-summary" id="activity-{{ activity.id }}-title"><strong>[{{ activity.title | escape }}]</strong> {{ activity.summary | escape }}</p>
     </div>
@@ -26,5 +30,6 @@
     </div>
   </article>
   {% endfor %}
+  </div>
 </section>
 {% endif %}

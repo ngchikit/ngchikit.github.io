@@ -63,9 +63,12 @@ sup { font-size:.72em; line-height:0; }
 .text-button:hover { text-decoration:underline; }
 .news-toggle { margin-top:8px; }
 .activities { margin-top:16px; padding-top:16px; border-top:1px solid var(--line); }
+.activities-heading { display:flex; align-items:baseline; justify-content:space-between; gap:12px; margin-bottom:10px; }
+.activities-heading h3 { margin:0; font-size:16px; font-weight:600; }
+.activities-heading span { color:var(--muted); font-size:11px; }
+.activity-feed { max-height:176px; overflow-y:auto; overflow-x:hidden; overscroll-behavior-y:contain; scrollbar-width:thin; scrollbar-color:#b7c2cf transparent; padding:0 12px 4px 0; border-bottom:1px solid var(--line); }
 .activity-album { display:grid; grid-template-columns:minmax(0,1fr) 360px; gap:24px; align-items:center; }
-.activity-album + .activity-album { margin-top:18px; }
-.activity-copy h3 { margin:0 0 6px; font-size:16px; font-weight:600; }
+.activity-album + .activity-album { margin-top:14px; padding-top:14px; border-top:1px solid var(--line); }
 .activity-date { color:var(--muted); font:11px ui-monospace,SFMono-Regular,Consolas,monospace; }
 .activity-summary { max-width:480px; margin:5px 0 0; color:var(--body); font-size:13px; line-height:1.55; }
 .activity-summary strong { color:var(--ink); font-weight:600; }
@@ -211,8 +214,8 @@ code { padding:2px 5px; border-radius:3px; background:#edf2f7; font-size:.85em; 
  .news-list.is-enhanced li { grid-template-columns:64px minmax(0,1fr); gap:12px; }
  .news-list li { font-size:13px; }
  .news-list em { font-size:10px; }
+ .activity-feed { max-height:240px; }
  .activity-album { grid-template-columns:1fr; gap:12px; }
- .activity-copy h3 { display:inline; margin-right:10px; }
  .activity-summary { margin-top:5px; }
  .figure-dialog { padding-left:14px; padding-right:14px; }
  .publication { grid-template-columns:1fr; gap:12px; padding:16px 0; }
