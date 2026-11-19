@@ -31,5 +31,30 @@
         "height": 1255
       }
     ]
+  },
+  {
+    "id": "ces-2025",
+    "title": "CES 2025",
+    "date": "01.2025",
+    "datetime": "2025-01",
+    "summary": "Exhibition highlights and gatherings.",
+    "photos": [
+      {
+        "src": "/assets/activities/ces-2025/exhibition.jpg",
+        "label": "Exhibition highlights",
+        "alt": "CES 2025 collage featuring the Hong Kong Tech exhibition, group photos and a dinner",
+        "caption": "CES 2025 · Exhibition and group highlights",
+        "width": 800,
+        "height": 534
+      },
+      {
+        "src": "/assets/activities/ces-2025/gatherings.jpg",
+        "label": "Gatherings",
+        "alt": "CES 2025 collage of group photos and gatherings",
+        "caption": "CES 2025 · Gatherings and memories",
+        "width": 1280,
+        "height": 853
+      }
+    ]
   }
 ]
