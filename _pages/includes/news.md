@@ -6,7 +6,7 @@
 - *10.2026*: EndoRSI preprint released — [EndoRSI: Physical-Evidence-Driven Recursive Improvement of Endoscopic Robot Policies](https://arxiv.org/abs/2610.13376).
 - *9.2026*: Our work on Flexible Whole-body Tactile Sensing on a Soft Continuum Robot got the best poster award in [[IROS workshop](https://sites.google.com/view/iros26-ws-robot4tissuesurgery/home)] 🎉
 - *9.2026*: Our work on visual quality examination of colonscopy accepted by top clinical conference [[UEG 2026](https://ueg.eu/week)] 🎉
-- *8.2026*: EndoLIFT preprint released — bidirectional endoscopic control with language-disambiguated intent. [[project page](/renlab-endoscopic-projects/endolift.html)]
+- *8.2026*: EndoLIFT preprint released — bidirectional endoscopic control with language-disambiguated intent. [[paper](https://arxiv.org/abs/2608.20478)]
 - *6.2026*: 1 UG FYP paper accepted by `ICBIR`. Congrat Hang Li！
 - *6.2026*: 1 paper accepted by `RSS workshop`. Congrat Xiyue！
 - *6.2026*: 1 paper accepted by `IEEE-IROS`. Congrat [Jinsong](https://jinsonglin-cuhk.github.io/).
@@ -14,7 +14,7 @@
 - *3.2026*: Our embodied endoscopy dataset is available via [Nvidia Open-H-Embodiment collection](https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Open-H-Embodiment). Thanks all contributors~  
 - *2.2026*: 3 papers accepted by `IEEE-ICRA`. Thanks all contributors~
 - *10.2025*: Our SoftVisioBots team won the The First Place Award in ACM MM 2025 RoboSoft Workshop! Thanks all teammates~
-- *10.2025*: CAN-DRL accepted by `IEEE ROBIO 2025` — **T.J. Tarn Best Paper Award in Robotics**. [[project page](/renlab-endoscopic-projects/can.html)]
+- *10.2025*: CAN-DRL accepted by `IEEE ROBIO 2025` — **T.J. Tarn Best Paper Award in Robotics**. [[paper](https://ieeexplore.ieee.org/document/11376000/)]
 - *8.2025*: EndoVLA accepted by `CoRL 2025` (spotlight). 
 - *6.2025*: JEDP accepted by `IEEE-IROS-2025` (Oral).
 - *12.2024*: 🎉 Establish personal webpage

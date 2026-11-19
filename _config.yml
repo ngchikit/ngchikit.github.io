@@ -93,6 +93,20 @@ exclude:
   - vendor
   - google_scholar_crawler
   - github_myprofile_updater
+  # Retired project website. Keep its shared images and videos for publications.
+  - renlab-endoscopic-projects/index.html
+  - renlab-endoscopic-projects/can.html
+  - renlab-endoscopic-projects/endolift.html
+  - renlab-endoscopic-projects/endovla.html
+  - renlab-endoscopic-projects/README.md
+  - renlab-endoscopic-projects/projects.css
+  - renlab-endoscopic-projects/projects.js
+  - renlab-endoscopic-projects/style.css
+  - _pages/research-ebv-can.html
+  - _pages/research-mprf.html
+  - _pages/research-endovla-oov.html
+  - _pages/research-endorsi.html
+  - _pages/includes/projects.md
 keep_files:
   - .git
   - .svn

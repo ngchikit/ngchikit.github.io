@@ -19,7 +19,6 @@ redirect_from:
     <h1 id="profile-name">Chi Kit Ng <span>Justin</span></h1>
     <p class="profile-role">PhD student, Electronic Engineering <span>·</span> HKPFS Awardee</p>
   </div>
-  <a class="profile-project-entry" href="/renlab-endoscopic-projects/">Embodied endoscopy research projects page</a>
   <div class="hero-copy">
     <h2 class="about-label" id="about-me">About me</h2>
     <div class="biography">
@@ -58,7 +57,7 @@ redirect_from:
         <h3><a href="{{ paper.paper }}" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a></h3>
         <p class="publication-authors">{{ paper.authors }}</p>
         <p class="publication-description">{{ paper.description }}</p>
-        <div class="publication-links"><a href="{{ paper.paper }}" target="_blank" rel="noopener noreferrer" aria-label="Read {{ paper.short | escape }} paper">[paper]</a><a href="{{ paper.project }}" aria-label="{{ paper.short | escape }} project page">[project page]</a>{% if paper.video %}<a href="{{ paper.video }}" target="_blank" rel="noopener" aria-label="Watch full {{ paper.short | escape }} video">[video]</a>{% endif %}</div>
+        <div class="publication-links"><a href="{{ paper.paper }}" target="_blank" rel="noopener noreferrer" aria-label="Read {{ paper.short | escape }} paper">[paper]</a>{% if paper.project %}<a href="{{ paper.project }}" aria-label="{{ paper.short | escape }} project page">[project page]</a>{% endif %}{% if paper.video %}<a href="{{ paper.video }}" target="_blank" rel="noopener" aria-label="Watch full {{ paper.short | escape }} video">[video]</a>{% endif %}</div>
       </div>
     </article>
     {% endfor %}
@@ -72,8 +71,6 @@ redirect_from:
     </div>
   </details>
 </section>
-
-<p class="project-invitation" id="projects">More demonstrations and student research opportunities: <a href="/renlab-endoscopic-projects/">Endoscopic Autonomy project website ↗</a></p>
 
 <section class="home-section experience-section">
   {% capture experience %}{% include_relative includes/research-experience.md %}{% endcapture %}

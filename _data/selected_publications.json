@@ -10,8 +10,7 @@
     "overview": "EBV-CAN combines a single initial bird’s-eye image with evolving endoscopic observations and motor state. Language-conditioned spatial queries locate the tip, next waypoint and target, connecting scene grounding to bending and insertion commands.",
     "title": "EBV-CAN: Vision–Language Grounding for Contact-Aided Endoscope Navigation",
     "paper": "https://arxiv.org/abs/2610.30786",
-    "authors": "<strong>Chi Kit Ng</strong><sup>&#42;</sup>, Shuchang Liu<sup>&#42;</sup>, Jinsong Lin<sup>&#42;</sup>, Yidong Zhang, Xizi Wang, Ho Yin Chim, Hongliang Ren<sup>&#8224;</sup>.",
-    "project": "/renlab-endoscopic-projects/ebv-can.html"
+    "authors": "<strong>Chi Kit Ng</strong><sup>&#42;</sup>, Shuchang Liu<sup>&#42;</sup>, Jinsong Lin<sup>&#42;</sup>, Yidong Zhang, Xizi Wang, Ho Yin Chim, Hongliang Ren<sup>&#8224;</sup>."
   },
   {
     "id": "mprf",
@@ -24,8 +23,7 @@
     "overview": "Multimodal Progress-Residual Fusion anticipates an operator’s retreat decision from motor commands, electromagnetic tracking and endoscopic video. A nominal-progress model provides an intent–response residual that is fused with the observed modalities in a temporal predictor.",
     "title": "Multimodal Progress-Residual Fusion for Anticipating Navigation Retreat in Robotic Flexible Endoscopy",
     "paper": "https://arxiv.org/abs/2610.31028",
-    "authors": "<strong>Chi Kit Ng</strong><sup>&#42;</sup>, Tianchun Wu<sup>&#42;</sup>, Jiatan Sun<sup>&#42;</sup>, Yuming Sun, Jianru Zhang, Hongliang Ren<sup>&#8224;</sup>.",
-    "project": "/renlab-endoscopic-projects/mprf.html"
+    "authors": "<strong>Chi Kit Ng</strong><sup>&#42;</sup>, Tianchun Wu<sup>&#42;</sup>, Jiatan Sun<sup>&#42;</sup>, Yuming Sun, Jianru Zhang, Hongliang Ren<sup>&#8224;</sup>."
   },
   {
     "id": "endovla-oov",
@@ -39,7 +37,6 @@
     "title": "EndoVLA-OOV: Language-Conditioned Out-of-View Target Acquisition in Robotic Endoscopy",
     "paper": "https://arxiv.org/abs/2610.24747",
     "authors": "<strong>Chi Kit Ng</strong><sup>&#42;</sup>, Yidong Zhang<sup>&#42;</sup>, Tianchun Wu<sup>&#42;</sup>, Zhiqing Tang, Hanlin Zhao, Siu Hing Lui, Tao Yang, Jingsong Lin, Huxin Gao, Yeung Trevor, Raymond Tang, Hongliang Ren<sup>&#8224;</sup>.",
-    "project": "/renlab-endoscopic-projects/endovla-oov.html",
     "preview": "/assets/research/endovla-oov-preview.mp4",
     "poster": "/assets/research/endovla-oov-poster.jpg",
     "video": "/assets/research/endovla-oov-full.mp4"
@@ -55,8 +52,7 @@
     "overview": "EndoRSI links policy research to physical experimentation and evidence-driven revision. A coding agent proposes and analyses candidate policies, while a separate runtime handles human-authorised robot execution. Experimental outcomes and feedback inform subsequent policy improvement.",
     "title": "EndoRSI: Physical-Evidence-Driven Recursive Improvement of Endoscopic Robot Policies",
     "paper": "https://arxiv.org/abs/2610.13376",
-    "authors": "<strong>Chi Kit Ng</strong><sup>&#42;</sup>, Yidong Zhang<sup>&#42;</sup>, Tianchun Wu, Siu Hing Lui, Hanlin Zhao, Huxin Gao, Hongliang Ren<sup>&#8224;</sup>.",
-    "project": "/renlab-endoscopic-projects/endorsi.html"
+    "authors": "<strong>Chi Kit Ng</strong><sup>&#42;</sup>, Yidong Zhang<sup>&#42;</sup>, Tianchun Wu, Siu Hing Lui, Hanlin Zhao, Huxin Gao, Hongliang Ren<sup>&#8224;</sup>."
   },
   {
     "id": "endolift",
@@ -69,7 +65,6 @@
     "title": "EndoLIFT: Language-Disambiguated Latent-Conditioned Rectified Flow for Bidirectional Endoscopic Control",
     "paper": "https://arxiv.org/abs/2608.20478",
     "authors": "<strong>Chi Kit Ng</strong><sup>&#42;</sup>, Yidong Zhang<sup>&#42;</sup>, Lui Siu Hing<sup>&#42;</sup>, Jinsong Lin<sup>&#42;</sup>, Tianchun Wu, Ho Yin Chim, Zhiqing Tang, Tao Yang, Huxin Gao, Trevor Yeung, Raymond Shing-Yan Tang, Hongliang Ren<sup>&#8224;</sup>.",
-    "project": "/renlab-endoscopic-projects/endolift.html",
     "preview": "/assets/research/endolift-preview.mp4",
     "poster": "/assets/research/endolift-poster.jpg",
     "video": "/renlab-endoscopic-projects/assets/endolift.mp4"
@@ -86,7 +81,6 @@
     "title": "EndoVLA: Dual-Phase Vision-Language-Action for Precise Autonomous Tracking in Endoscopy",
     "paper": "https://proceedings.mlr.press/v305/kit25a.html",
     "authors": "<strong>Chi Kit Ng</strong><sup>&#42;</sup>, Long Bai<sup>&#42;</sup>, Guankun Wang<sup>&#42;</sup>, Yupeng Wang, Huxin Gao, Kun Yuan, Chenhan Jin, Tieyong Zeng, Hongliang Ren<sup>&#8224;</sup>.",
-    "project": "/renlab-endoscopic-projects/endovla.html",
     "preview": "/assets/research/endovla-preview.mp4",
     "poster": "/assets/research/endovla-poster.jpg",
     "video": "/renlab-endoscopic-projects/assets/endovla.mp4"
@@ -103,7 +97,6 @@
     "title": "Contact-Aided Navigation of Flexible Robotic Endoscope Using Deep Reinforcement Learning in Dynamic Stomach",
     "paper": "https://ieeexplore.ieee.org/document/11376000/",
     "authors": "<strong>Chi Kit Ng</strong>, Huxin Gao, Tian-Ao Ren, Jiewen Lai, Hongliang Ren<sup>&#8224;</sup>.",
-    "project": "/renlab-endoscopic-projects/can.html",
     "preview": "/assets/research/can-preview.mp4",
     "poster": "/assets/research/can-poster.jpg",
     "video": "/renlab-endoscopic-projects/assets/can.mp4"

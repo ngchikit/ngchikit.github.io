@@ -3,7 +3,7 @@
 Project pages for the REN Lab (Intelligent Medical Mechatronics, Department of Electronic
 Engineering, The Chinese University of Hong Kong) work on autonomous flexible endoscopy.
 
-**Live site:** https://ngchikit.github.io/renlab-endoscopic-projects/
+**Status:** Offline since 2026-11-19. Source is retained for reference; the project pages are excluded from GitHub Pages publication.
 
 | Project | Paper |
 |---|---|
