@@ -19,10 +19,7 @@ redirect_from:
     <h1 id="profile-name">Chi Kit Ng <span>Justin</span></h1>
     <p class="profile-role">PhD student, Electronic Engineering <span>·</span> HKPFS Awardee</p>
   </div>
-  <a class="profile-project-entry" href="/renlab-endoscopic-projects/" aria-label="Explore the Endoscopic Autonomy project website">
-    <img class="project-entry-icon" src="/assets/images/project-entry.svg" width="72" height="72" alt="">
-    <span class="project-entry-title">Project Website <span aria-hidden="true">↗</span></span>
-  </a>
+  <a class="profile-project-entry" href="/renlab-endoscopic-projects/">Embodied endoscopy research projects page</a>
   <div class="hero-copy">
     <h2 class="about-label" id="about-me">About me</h2>
     <div class="biography">
